@@ -1,0 +1,58 @@
+# Lemon Lime
+
+[colors.primary]
+background = '#0f1a0a'
+foreground = '#e8f2c8'
+
+[colors.normal]
+black   = '#1c2b14'
+red     = '#f0634a'
+green   = '#7cd62f'
+yellow  = '#f2e03a'
+blue    = '#4aa3d0'
+magenta = '#b080d0'
+cyan    = '#3ad0a0'
+white   = '#cdd8ae'
+
+[colors.bright]
+black   = '#5e7548'
+red     = '#ff8d78'
+green   = '#a4ee5c'
+yellow  = '#fff46a'
+blue    = '#7ac0e4'
+magenta = '#cca0e4'
+cyan    = '#6ae6bc'
+white   = '#fbffe6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0f1a0a'
+cursor = '#f2e03a'
+
+[colors.vi_mode_cursor]
+text = '#0f1a0a'
+cursor = '#6ae6bc'
+
+[colors.selection]
+text = '#e8f2c8'
+background = '#65651c'
+
+[colors.search.matches]
+foreground = '#0f1a0a'
+background = '#fff46a'
+
+[colors.search.focused_match]
+foreground = '#0f1a0a'
+background = '#ff8d78'
+
+[colors.footer_bar]
+foreground = '#e8f2c8'
+background = '#36412c'
+
+[colors.hints.start]
+foreground = '#0f1a0a'
+background = '#fff46a'
+
+[colors.hints.end]
+foreground = '#0f1a0a'
+background = '#7ac0e4'

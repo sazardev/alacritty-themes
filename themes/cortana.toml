@@ -1,0 +1,58 @@
+# Halo Cortana (inspired)
+
+[colors.primary]
+background = '#060b1c'
+foreground = '#cfe6ff'
+
+[colors.normal]
+black   = '#101a3a'
+red     = '#ff6b8a'
+green   = '#5fe0b0'
+yellow  = '#ffd36b'
+blue    = '#4d8dff'
+magenta = '#b57bff'
+cyan    = '#5ad7ff'
+white   = '#b4c9e6'
+
+[colors.bright]
+black   = '#5a6ea6'
+red     = '#ff94ab'
+green   = '#8aefca'
+yellow  = '#ffe39a'
+blue    = '#7fadff'
+magenta = '#cfa6ff'
+cyan    = '#8ae6ff'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#060b1c'
+cursor = '#5ad7ff'
+
+[colors.vi_mode_cursor]
+text = '#060b1c'
+cursor = '#8ae6ff'
+
+[colors.selection]
+text = '#cfe6ff'
+background = '#265972'
+
+[colors.search.matches]
+foreground = '#060b1c'
+background = '#ffe39a'
+
+[colors.search.focused_match]
+foreground = '#060b1c'
+background = '#ff94ab'
+
+[colors.footer_bar]
+foreground = '#cfe6ff'
+background = '#2a3245'
+
+[colors.hints.start]
+foreground = '#060b1c'
+background = '#ffe39a'
+
+[colors.hints.end]
+foreground = '#060b1c'
+background = '#7fadff'

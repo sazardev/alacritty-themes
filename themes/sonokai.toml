@@ -1,0 +1,58 @@
+# Sonokai
+
+[colors.primary]
+background = '#2c2e34'
+foreground = '#e2e2e3'
+
+[colors.normal]
+black   = '#181819'
+red     = '#fc5d7c'
+green   = '#9ed072'
+yellow  = '#e7c664'
+blue    = '#76cce0'
+magenta = '#b39df3'
+cyan    = '#f39660'
+white   = '#e2e2e3'
+
+[colors.bright]
+black   = '#7f8490'
+red     = '#fc5d7c'
+green   = '#9ed072'
+yellow  = '#e7c664'
+blue    = '#76cce0'
+magenta = '#b39df3'
+cyan    = '#f39660'
+white   = '#e2e2e3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#2c2e34'
+cursor = '#e2e2e3'
+
+[colors.vi_mode_cursor]
+text = '#2c2e34'
+cursor = '#f39660'
+
+[colors.selection]
+text = '#e2e2e3'
+background = '#486a75'
+
+[colors.search.matches]
+foreground = '#2c2e34'
+background = '#e7c664'
+
+[colors.search.focused_match]
+foreground = '#2c2e34'
+background = '#fc5d7c'
+
+[colors.footer_bar]
+foreground = '#e2e2e3'
+background = '#4d4e54'
+
+[colors.hints.start]
+foreground = '#2c2e34'
+background = '#e7c664'
+
+[colors.hints.end]
+foreground = '#2c2e34'
+background = '#76cce0'

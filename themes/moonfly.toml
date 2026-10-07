@@ -1,0 +1,58 @@
+# Moonfly
+
+[colors.primary]
+background = '#080808'
+foreground = '#bdbdbd'
+
+[colors.normal]
+black   = '#323437'
+red     = '#ff5454'
+green   = '#8cc85f'
+yellow  = '#e3c78a'
+blue    = '#80a0ff'
+magenta = '#cf87e8'
+cyan    = '#79dac8'
+white   = '#c6c6c6'
+
+[colors.bright]
+black   = '#949494'
+red     = '#ff5189'
+green   = '#36c692'
+yellow  = '#c2c292'
+blue    = '#74b2ff'
+magenta = '#ae81ff'
+cyan    = '#85dc85'
+white   = '#e4e4e4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#080808'
+cursor = '#bdbdbd'
+
+[colors.vi_mode_cursor]
+text = '#080808'
+cursor = '#85dc85'
+
+[colors.selection]
+text = '#bdbdbd'
+background = '#314966'
+
+[colors.search.matches]
+foreground = '#080808'
+background = '#c2c292'
+
+[colors.search.focused_match]
+foreground = '#080808'
+background = '#ff5189'
+
+[colors.footer_bar]
+foreground = '#bdbdbd'
+background = '#292929'
+
+[colors.hints.start]
+foreground = '#080808'
+background = '#c2c292'
+
+[colors.hints.end]
+foreground = '#080808'
+background = '#74b2ff'

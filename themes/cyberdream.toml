@@ -1,0 +1,58 @@
+# Cyberdream
+
+[colors.primary]
+background = '#16181a'
+foreground = '#ffffff'
+
+[colors.normal]
+black   = '#16181a'
+red     = '#ff6e5e'
+green   = '#5eff6c'
+yellow  = '#f1ff5e'
+blue    = '#5ea1ff'
+magenta = '#bd5eff'
+cyan    = '#5ef1ff'
+white   = '#ffffff'
+
+[colors.bright]
+black   = '#6b7076'
+red     = '#ff6e5e'
+green   = '#5eff6c'
+yellow  = '#f1ff5e'
+blue    = '#5ea1ff'
+magenta = '#bd5eff'
+cyan    = '#5ef1ff'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#16181a'
+cursor = '#ffffff'
+
+[colors.vi_mode_cursor]
+text = '#16181a'
+cursor = '#5ef1ff'
+
+[colors.selection]
+text = '#ffffff'
+background = '#314c71'
+
+[colors.search.matches]
+foreground = '#16181a'
+background = '#f1ff5e'
+
+[colors.search.focused_match]
+foreground = '#16181a'
+background = '#ff6e5e'
+
+[colors.footer_bar]
+foreground = '#ffffff'
+background = '#404243'
+
+[colors.hints.start]
+foreground = '#16181a'
+background = '#f1ff5e'
+
+[colors.hints.end]
+foreground = '#16181a'
+background = '#5ea1ff'

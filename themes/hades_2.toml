@@ -1,0 +1,59 @@
+# Hades II (inspired) -- original palette, not an official Supergiant asset.
+# Crossroads/Erebus violet-black, Hecate witchfire green, Olympian gold, blood crimson.
+
+[colors.primary]
+background = "#14101c"
+foreground = "#e6dcc8"
+
+[colors.cursor]
+text = "#14101c"
+cursor = "#e8b64c"
+
+[colors.vi_mode_cursor]
+text = "#14101c"
+cursor = "#86efc0"
+
+[colors.selection]
+text = "#f4ecdc"
+background = "#3a2a55"
+
+[colors.search.matches]
+foreground = "#14101c"
+background = "#d9a441"
+
+[colors.search.focused_match]
+foreground = "#14101c"
+background = "#e5566b"
+
+[colors.footer_bar]
+foreground = "#14101c"
+background = "#e6dcc8"
+
+[colors.normal]
+black = "#1f1830"
+red = "#c1354a"
+green = "#4fbf8f"
+yellow = "#d9a441"
+blue = "#5b7fd6"
+magenta = "#a55ac9"
+cyan = "#43b5be"
+white = "#cfc6d8"
+
+[colors.bright]
+black = "#4a3f5c"
+red = "#e5566b"
+green = "#86efc0"
+yellow = "#f2c76a"
+blue = "#85a2f0"
+magenta = "#c98ae6"
+cyan = "#7fe0e0"
+white = "#f4ecdc"
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.hints.start]
+foreground = '#14101c'
+background = '#f2c76a'
+
+[colors.hints.end]
+foreground = '#14101c'
+background = '#85a2f0'

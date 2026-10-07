@@ -1,0 +1,58 @@
+# Doom Slayer (inspired)
+
+[colors.primary]
+background = '#120a08'
+foreground = '#e8d8c8'
+
+[colors.normal]
+black   = '#241612'
+red     = '#ff3a1a'
+green   = '#6bd13a'
+yellow  = '#ffb01a'
+blue    = '#4a8fd0'
+magenta = '#c060b0'
+cyan    = '#3ac8b0'
+white   = '#cdbdad'
+
+[colors.bright]
+black   = '#7a5d52'
+red     = '#ff6a4a'
+green   = '#92e667'
+yellow  = '#ffc94a'
+blue    = '#78acea'
+magenta = '#d88ac8'
+cyan    = '#6adcc8'
+white   = '#fff4e8'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#120a08'
+cursor = '#ff3a1a'
+
+[colors.vi_mode_cursor]
+text = '#120a08'
+cursor = '#6adcc8'
+
+[colors.selection]
+text = '#e8d8c8'
+background = '#6c1c0f'
+
+[colors.search.matches]
+foreground = '#120a08'
+background = '#ffc94a'
+
+[colors.search.focused_match]
+foreground = '#120a08'
+background = '#ff6a4a'
+
+[colors.footer_bar]
+foreground = '#e8d8c8'
+background = '#392f2b'
+
+[colors.hints.start]
+foreground = '#120a08'
+background = '#ffc94a'
+
+[colors.hints.end]
+foreground = '#120a08'
+background = '#78acea'

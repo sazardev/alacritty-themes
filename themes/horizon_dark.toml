@@ -1,0 +1,58 @@
+# Horizon Dark
+
+[colors.primary]
+background = '#1c1e26'
+foreground = '#d5d8da'
+
+[colors.normal]
+black   = '#16161c'
+red     = '#e95678'
+green   = '#29d398'
+yellow  = '#fab795'
+blue    = '#26bbd9'
+magenta = '#ee64ac'
+cyan    = '#59e1e3'
+white   = '#d5d8da'
+
+[colors.bright]
+black   = '#6c6f93'
+red     = '#ec6a88'
+green   = '#3fdaa4'
+yellow  = '#fbc3a7'
+blue    = '#3fc4de'
+magenta = '#f075b5'
+cyan    = '#6be4e6'
+white   = '#d5d8da'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1c1e26'
+cursor = '#d5d8da'
+
+[colors.vi_mode_cursor]
+text = '#1c1e26'
+cursor = '#6be4e6'
+
+[colors.selection]
+text = '#d5d8da'
+background = '#295d6c'
+
+[colors.search.matches]
+foreground = '#1c1e26'
+background = '#fbc3a7'
+
+[colors.search.focused_match]
+foreground = '#1c1e26'
+background = '#ec6a88'
+
+[colors.footer_bar]
+foreground = '#d5d8da'
+background = '#3d3f46'
+
+[colors.hints.start]
+foreground = '#1c1e26'
+background = '#fbc3a7'
+
+[colors.hints.end]
+foreground = '#1c1e26'
+background = '#3fc4de'

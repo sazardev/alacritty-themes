@@ -1,0 +1,56 @@
+[colors.primary]
+foreground = "#ffffff"
+background = "#262335"
+
+[colors.normal]
+black = "#262335"
+red = "#fe4450"
+green = "#72f1b8"
+yellow = "#f3e70f"
+blue = "#03edf9"
+magenta = "#ff7edb"
+cyan = "#03edf9"
+white = "#ffffff"
+
+[colors.bright]
+black = "#614d85"
+red = "#fe4450"
+green = "#72f1b8"
+yellow = "#fede5d"
+blue = "#03edf9"
+magenta = "#ff7edb"
+cyan = "#03edf9"
+white = "#ffffff"
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#262335'
+cursor = '#ffffff'
+
+[colors.vi_mode_cursor]
+text = '#262335'
+cursor = '#03edf9'
+
+[colors.selection]
+text = '#ffffff'
+background = '#19707f'
+
+[colors.search.matches]
+foreground = '#262335'
+background = '#fede5d'
+
+[colors.search.focused_match]
+foreground = '#000000'
+background = '#fe4450'
+
+[colors.footer_bar]
+foreground = '#ffffff'
+background = '#4d4b59'
+
+[colors.hints.start]
+foreground = '#262335'
+background = '#fede5d'
+
+[colors.hints.end]
+foreground = '#262335'
+background = '#03edf9'

@@ -1,0 +1,61 @@
+# Colors (Dracula)
+
+# Default colors
+[colors.primary]
+background = '#282a36'
+foreground = '#f8f8f2'
+
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#ff5555'
+green   = '#50fa7b'
+yellow  = '#f1fa8c'
+blue    = '#bd93f9'
+magenta = '#ff79c6'
+cyan    = '#8be9fd'
+white   = '#bbbbbb'
+
+# Bright colors
+[colors.bright]
+black   = '#555555'
+red     = '#ff5555'
+green   = '#50fa7b'
+yellow  = '#f1fa8c'
+blue    = '#caa9fa'
+magenta = '#ff79c6'
+cyan    = '#8be9fd'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#282a36'
+cursor = '#f8f8f2'
+
+[colors.vi_mode_cursor]
+text = '#282a36'
+cursor = '#8be9fd'
+
+[colors.selection]
+text = '#f8f8f2'
+background = '#665a80'
+
+[colors.search.matches]
+foreground = '#282a36'
+background = '#f1fa8c'
+
+[colors.search.focused_match]
+foreground = '#282a36'
+background = '#ff5555'
+
+[colors.footer_bar]
+foreground = '#f8f8f2'
+background = '#4d4f58'
+
+[colors.hints.start]
+foreground = '#282a36'
+background = '#f1fa8c'
+
+[colors.hints.end]
+foreground = '#282a36'
+background = '#caa9fa'

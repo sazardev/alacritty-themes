@@ -1,0 +1,50 @@
+# Colors (Doom One)
+
+# Default colors
+[colors.primary]
+background = '#282c34'
+foreground = '#bbc2cf'
+
+# Normal colors
+[colors.normal]
+black   = '#282c34'
+red     = '#ff6c6b'
+green   = '#98be65'
+yellow  = '#ecbe7b'
+blue    = '#51afef'
+magenta = '#c678dd'
+cyan    = '#46d9ff'
+white   = '#bbc2cf'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#282c34'
+cursor = '#bbc2cf'
+
+[colors.vi_mode_cursor]
+text = '#282c34'
+cursor = '#46d9ff'
+
+[colors.selection]
+text = '#bbc2cf'
+background = '#34526a'
+
+[colors.search.matches]
+foreground = '#282c34'
+background = '#ecbe7b'
+
+[colors.search.focused_match]
+foreground = '#282c34'
+background = '#ff6c6b'
+
+[colors.footer_bar]
+foreground = '#bbc2cf'
+background = '#424750'
+
+[colors.hints.start]
+foreground = '#282c34'
+background = '#ecbe7b'
+
+[colors.hints.end]
+foreground = '#282c34'
+background = '#51afef'

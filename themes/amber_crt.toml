@@ -1,0 +1,58 @@
+# Amber CRT
+
+[colors.primary]
+background = '#120c02'
+foreground = '#ffb000'
+
+[colors.normal]
+black   = '#241804'
+red     = '#ff5a3a'
+green   = '#b8c030'
+yellow  = '#ffb000'
+blue    = '#d08a30'
+magenta = '#e8806a'
+cyan    = '#d0c870'
+white   = '#ffd070'
+
+[colors.bright]
+black   = '#7a5a1a'
+red     = '#ff8060'
+green   = '#d4dc50'
+yellow  = '#ffc83a'
+blue    = '#e8a850'
+magenta = '#f4a090'
+cyan    = '#e8e090'
+white   = '#fff0c0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#120c02'
+cursor = '#ffb000'
+
+[colors.vi_mode_cursor]
+text = '#120c02'
+cursor = '#e8e090'
+
+[colors.selection]
+text = '#ffb000'
+background = '#634720'
+
+[colors.search.matches]
+foreground = '#120c02'
+background = '#ffc83a'
+
+[colors.search.focused_match]
+foreground = '#120c02'
+background = '#ff8060'
+
+[colors.footer_bar]
+foreground = '#ffb000'
+background = '#3d2a02'
+
+[colors.hints.start]
+foreground = '#120c02'
+background = '#ffc83a'
+
+[colors.hints.end]
+foreground = '#120c02'
+background = '#e8a850'

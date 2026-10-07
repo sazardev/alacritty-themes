@@ -1,0 +1,58 @@
+# Mass Effect N7 (inspired)
+
+[colors.primary]
+background = '#0c0d10'
+foreground = '#e8e8e8'
+
+[colors.normal]
+black   = '#1e2128'
+red     = '#e4352b'
+green   = '#6bbf6b'
+yellow  = '#e8a33a'
+blue    = '#4a8fd9'
+magenta = '#b070d0'
+cyan    = '#4ac8d8'
+white   = '#cfd2d8'
+
+[colors.bright]
+black   = '#606674'
+red     = '#ff6a5e'
+green   = '#8fdc8f'
+yellow  = '#f5bf63'
+blue    = '#78aef0'
+magenta = '#cc92e6'
+cyan    = '#7ae0ee'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0c0d10'
+cursor = '#e4352b'
+
+[colors.vi_mode_cursor]
+text = '#0c0d10'
+cursor = '#7ae0ee'
+
+[colors.selection]
+text = '#e8e8e8'
+background = '#5e1c1a'
+
+[colors.search.matches]
+foreground = '#0c0d10'
+background = '#f5bf63'
+
+[colors.search.focused_match]
+foreground = '#0c0d10'
+background = '#ff6a5e'
+
+[colors.footer_bar]
+foreground = '#e8e8e8'
+background = '#343437'
+
+[colors.hints.start]
+foreground = '#0c0d10'
+background = '#f5bf63'
+
+[colors.hints.end]
+foreground = '#0c0d10'
+background = '#78aef0'

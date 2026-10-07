@@ -1,0 +1,58 @@
+# Portal Aperture (inspired)
+
+[colors.primary]
+background = '#0f1114'
+foreground = '#e8e8e8'
+
+[colors.normal]
+black   = '#1d2026'
+red     = '#ff5a4a'
+green   = '#6fd08a'
+yellow  = '#ff9a00'
+blue    = '#00a8ff'
+magenta = '#b080e0'
+cyan    = '#30d0d8'
+white   = '#c8c8c8'
+
+[colors.bright]
+black   = '#626872'
+red     = '#ff8070'
+green   = '#96e4a8'
+yellow  = '#ffb84a'
+blue    = '#55c4ff'
+magenta = '#c8a4ee'
+cyan    = '#66e2e8'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0f1114'
+cursor = '#ff9a00'
+
+[colors.vi_mode_cursor]
+text = '#0f1114'
+cursor = '#66e2e8'
+
+[colors.selection]
+text = '#e8e8e8'
+background = '#6a450c'
+
+[colors.search.matches]
+foreground = '#0f1114'
+background = '#ffb84a'
+
+[colors.search.focused_match]
+foreground = '#0f1114'
+background = '#ff8070'
+
+[colors.footer_bar]
+foreground = '#e8e8e8'
+background = '#36383a'
+
+[colors.hints.start]
+foreground = '#0f1114'
+background = '#ffb84a'
+
+[colors.hints.end]
+foreground = '#0f1114'
+background = '#55c4ff'

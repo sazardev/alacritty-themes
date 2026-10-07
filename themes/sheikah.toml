@@ -1,0 +1,58 @@
+# Zelda Sheikah Slate (inspired)
+
+[colors.primary]
+background = '#0a1419'
+foreground = '#cfeff7'
+
+[colors.normal]
+black   = '#14262e'
+red     = '#ff6b5a'
+green   = '#7fe0a0'
+yellow  = '#ff9a1f'
+blue    = '#38a8ff'
+magenta = '#a58cf0'
+cyan    = '#38c8ff'
+white   = '#b4d4dc'
+
+[colors.bright]
+black   = '#4c6a75'
+red     = '#ff907f'
+green   = '#a2efbc'
+yellow  = '#ffb855'
+blue    = '#6cc0ff'
+magenta = '#c0acf6'
+cyan    = '#72dcff'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0a1419'
+cursor = '#ff9a1f'
+
+[colors.vi_mode_cursor]
+text = '#0a1419'
+cursor = '#72dcff'
+
+[colors.selection]
+text = '#cfeff7'
+background = '#67471b'
+
+[colors.search.matches]
+foreground = '#0a1419'
+background = '#ffb855'
+
+[colors.search.focused_match]
+foreground = '#0a1419'
+background = '#ff907f'
+
+[colors.footer_bar]
+foreground = '#cfeff7'
+background = '#2d3b41'
+
+[colors.hints.start]
+foreground = '#0a1419'
+background = '#ffb855'
+
+[colors.hints.end]
+foreground = '#0a1419'
+background = '#6cc0ff'

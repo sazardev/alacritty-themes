@@ -1,0 +1,58 @@
+# Valorant Viper (inspired)
+
+[colors.primary]
+background = '#050c08'
+foreground = '#d4f2de'
+
+[colors.normal]
+black   = '#0e1a13'
+red     = '#ff4d5e'
+green   = '#39e46a'
+yellow  = '#c6f432'
+blue    = '#2ba6b8'
+magenta = '#a85cff'
+cyan    = '#1fe0b0'
+white   = '#b7d1c0'
+
+[colors.bright]
+black   = '#4f7260'
+red     = '#ff7482'
+green   = '#7dff9f'
+yellow  = '#e4ff6a'
+blue    = '#5ccbdc'
+magenta = '#c48cff'
+cyan    = '#66f5d2'
+white   = '#f0fff5'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#050c08'
+cursor = '#b6ff2e'
+
+[colors.vi_mode_cursor]
+text = '#050c08'
+cursor = '#66f5d2'
+
+[colors.selection]
+text = '#d4f2de'
+background = '#486816'
+
+[colors.search.matches]
+foreground = '#050c08'
+background = '#e4ff6a'
+
+[colors.search.focused_match]
+foreground = '#050c08'
+background = '#ff7482'
+
+[colors.footer_bar]
+foreground = '#d4f2de'
+background = '#2a352f'
+
+[colors.hints.start]
+foreground = '#050c08'
+background = '#e4ff6a'
+
+[colors.hints.end]
+foreground = '#050c08'
+background = '#5ccbdc'

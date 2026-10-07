@@ -1,0 +1,58 @@
+# GitHub Dark High Contrast
+
+[colors.primary]
+background = '#0a0c10'
+foreground = '#f0f3f6'
+
+[colors.normal]
+black   = '#7a828e'
+red     = '#ff9492'
+green   = '#26cd4d'
+yellow  = '#f0b72f'
+blue    = '#71b7ff'
+magenta = '#cb9eff'
+cyan    = '#39c5cf'
+white   = '#d9dee3'
+
+[colors.bright]
+black   = '#9ea7b3'
+red     = '#ffb1af'
+green   = '#4ae168'
+yellow  = '#f7c843'
+blue    = '#91cbff'
+magenta = '#dbb7ff'
+cyan    = '#56d4dd'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0a0c10'
+cursor = '#f0f3f6'
+
+[colors.vi_mode_cursor]
+text = '#0a0c10'
+cursor = '#56d4dd'
+
+[colors.selection]
+text = '#f0f3f6'
+background = '#3d556b'
+
+[colors.search.matches]
+foreground = '#0a0c10'
+background = '#f7c843'
+
+[colors.search.focused_match]
+foreground = '#0a0c10'
+background = '#ffb1af'
+
+[colors.footer_bar]
+foreground = '#f0f3f6'
+background = '#333639'
+
+[colors.hints.start]
+foreground = '#0a0c10'
+background = '#f7c843'
+
+[colors.hints.end]
+foreground = '#0a0c10'
+background = '#91cbff'

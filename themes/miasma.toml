@@ -1,0 +1,62 @@
+# miasma: https://github.com/xero/miasma.nvim
+# via https://github.com/alacritty/alacritty-theme
+
+# Primary colors
+[colors.primary]
+background = "#222222"
+foreground = "#c2c2b0"
+
+# Normal colors
+[colors.normal]
+black = "#222222"
+red = "#685742"
+green = "#5f875f"
+yellow = "#b36d43"
+blue = "#78824b"
+magenta = "#bb7744"
+cyan = "#c9a554"
+white = "#d7c483"
+
+# Bright colors
+[colors.bright]
+black = "#666666"
+red = "#685742"
+green = "#5f875f"
+yellow = "#b36d43"
+blue = "#78824b"
+magenta = "#bb7744"
+cyan = "#c9a554"
+white = "#d7c483"
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#222222'
+cursor = '#c2c2b0'
+
+[colors.vi_mode_cursor]
+text = '#222222'
+cursor = '#c9a554'
+
+[colors.selection]
+text = '#c2c2b0'
+background = '#434632'
+
+[colors.search.matches]
+foreground = '#000000'
+background = '#b36d43'
+
+[colors.search.focused_match]
+foreground = '#ffffff'
+background = '#685742'
+
+[colors.footer_bar]
+foreground = '#c2c2b0'
+background = '#3f3f3c'
+
+[colors.hints.start]
+foreground = '#000000'
+background = '#b36d43'
+
+[colors.hints.end]
+foreground = '#000000'
+background = '#78824b'

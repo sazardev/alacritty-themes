@@ -1,0 +1,58 @@
+# Matcha (dark)
+
+[colors.primary]
+background = '#1a2118'
+foreground = '#d8e4cc'
+
+[colors.normal]
+black   = '#28321f'
+red     = '#e07a6a'
+green   = '#9ccc65'
+yellow  = '#e6d56a'
+blue    = '#6aa8c8'
+magenta = '#b896c8'
+cyan    = '#6ac4a8'
+white   = '#c0ccb0'
+
+[colors.bright]
+black   = '#6a7a5c'
+red     = '#f0a090'
+green   = '#bcdf8a'
+yellow  = '#f2e68c'
+blue    = '#92c4dc'
+magenta = '#d0b4dc'
+cyan    = '#92dcc4'
+white   = '#f4fbe8'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a2118'
+cursor = '#9ccc65'
+
+[colors.vi_mode_cursor]
+text = '#1a2118'
+cursor = '#92dcc4'
+
+[colors.selection]
+text = '#d8e4cc'
+background = '#4b6235'
+
+[colors.search.matches]
+foreground = '#1a2118'
+background = '#f2e68c'
+
+[colors.search.focused_match]
+foreground = '#1a2118'
+background = '#f0a090'
+
+[colors.footer_bar]
+foreground = '#d8e4cc'
+background = '#3c4438'
+
+[colors.hints.start]
+foreground = '#1a2118'
+background = '#f2e68c'
+
+[colors.hints.end]
+foreground = '#1a2118'
+background = '#92c4dc'

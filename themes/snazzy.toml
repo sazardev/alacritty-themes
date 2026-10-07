@@ -1,0 +1,58 @@
+# Snazzy
+
+[colors.primary]
+background = '#282a36'
+foreground = '#eff0eb'
+
+[colors.normal]
+black   = '#282a36'
+red     = '#ff5c57'
+green   = '#5af78e'
+yellow  = '#f3f99d'
+blue    = '#57c7ff'
+magenta = '#ff6ac1'
+cyan    = '#9aedfe'
+white   = '#f1f1f0'
+
+[colors.bright]
+black   = '#7a7a7a'
+red     = '#ff5c57'
+green   = '#5af78e'
+yellow  = '#f3f99d'
+blue    = '#57c7ff'
+magenta = '#ff6ac1'
+cyan    = '#9aedfe'
+white   = '#f1f1f0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#282a36'
+cursor = '#eff0eb'
+
+[colors.vi_mode_cursor]
+text = '#282a36'
+cursor = '#9aedfe'
+
+[colors.selection]
+text = '#eff0eb'
+background = '#3a6682'
+
+[colors.search.matches]
+foreground = '#282a36'
+background = '#f3f99d'
+
+[colors.search.focused_match]
+foreground = '#282a36'
+background = '#ff5c57'
+
+[colors.footer_bar]
+foreground = '#eff0eb'
+background = '#4c4e57'
+
+[colors.hints.start]
+foreground = '#282a36'
+background = '#f3f99d'
+
+[colors.hints.end]
+foreground = '#282a36'
+background = '#57c7ff'

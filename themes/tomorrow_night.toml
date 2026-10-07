@@ -1,0 +1,58 @@
+# Tomorrow Night
+
+[colors.primary]
+background = '#1d1f21'
+foreground = '#c5c8c6'
+
+[colors.normal]
+black   = '#1d1f21'
+red     = '#cc6666'
+green   = '#b5bd68'
+yellow  = '#f0c674'
+blue    = '#81a2be'
+magenta = '#b294bb'
+cyan    = '#8abeb7'
+white   = '#c5c8c6'
+
+[colors.bright]
+black   = '#969896'
+red     = '#cc6666'
+green   = '#b5bd68'
+yellow  = '#f0c674'
+blue    = '#81a2be'
+magenta = '#b294bb'
+cyan    = '#8abeb7'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1d1f21'
+cursor = '#c5c8c6'
+
+[colors.vi_mode_cursor]
+text = '#1d1f21'
+cursor = '#8abeb7'
+
+[colors.selection]
+text = '#c5c8c6'
+background = '#43515d'
+
+[colors.search.matches]
+foreground = '#1d1f21'
+background = '#f0c674'
+
+[colors.search.focused_match]
+foreground = '#000000'
+background = '#cc6666'
+
+[colors.footer_bar]
+foreground = '#c5c8c6'
+background = '#3b3d3f'
+
+[colors.hints.start]
+foreground = '#1d1f21'
+background = '#f0c674'
+
+[colors.hints.end]
+foreground = '#1d1f21'
+background = '#81a2be'

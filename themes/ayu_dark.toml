@@ -1,0 +1,61 @@
+# Colors (Ayu Dark)
+
+# Default colors
+[colors.primary]
+background = '#0A0E14'
+foreground = '#B3B1AD'
+
+# Normal colors
+[colors.normal]
+black   = '#01060E'
+red     = '#EA6C73'
+green   = '#91B362'
+yellow  = '#F9AF4F'
+blue    = '#53BDFA'
+magenta = '#FAE994'
+cyan    = '#90E1C6'
+white   = '#C7C7C7'
+
+# Bright colors
+[colors.bright]
+black   = '#686868'
+red     = '#F07178'
+green   = '#C2D94C'
+yellow  = '#FFB454'
+blue    = '#59C2FF'
+magenta = '#FFEE99'
+cyan    = '#95E6CB'
+white   = '#FFFFFF'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0A0E14'
+cursor = '#B3B1AD'
+
+[colors.vi_mode_cursor]
+text = '#0A0E14'
+cursor = '#95E6CB'
+
+[colors.selection]
+text = '#B3B1AD'
+background = '#23485f'
+
+[colors.search.matches]
+foreground = '#0A0E14'
+background = '#FFB454'
+
+[colors.search.focused_match]
+foreground = '#0A0E14'
+background = '#F07178'
+
+[colors.footer_bar]
+foreground = '#B3B1AD'
+background = '#282b30'
+
+[colors.hints.start]
+foreground = '#0A0E14'
+background = '#FFB454'
+
+[colors.hints.end]
+foreground = '#0A0E14'
+background = '#59C2FF'

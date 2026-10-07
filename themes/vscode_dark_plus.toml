@@ -1,0 +1,58 @@
+# VS Code Dark+
+
+[colors.primary]
+background = '#1e1e1e'
+foreground = '#cccccc'
+
+[colors.normal]
+black   = '#000000'
+red     = '#e5484d'
+green   = '#0dbc79'
+yellow  = '#e5e510'
+blue    = '#3b8eea'
+magenta = '#c75fc7'
+cyan    = '#11a8cd'
+white   = '#e5e5e5'
+
+[colors.bright]
+black   = '#666666'
+red     = '#f14c4c'
+green   = '#23d18b'
+yellow  = '#f5f543'
+blue    = '#3b8eea'
+magenta = '#d670d6'
+cyan    = '#29b8db'
+white   = '#e5e5e5'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1e1e1e'
+cursor = '#cccccc'
+
+[colors.vi_mode_cursor]
+text = '#1e1e1e'
+cursor = '#29b8db'
+
+[colors.selection]
+text = '#cccccc'
+background = '#29496c'
+
+[colors.search.matches]
+foreground = '#1e1e1e'
+background = '#f5f543'
+
+[colors.search.focused_match]
+foreground = '#1e1e1e'
+background = '#f14c4c'
+
+[colors.footer_bar]
+foreground = '#cccccc'
+background = '#3d3d3d'
+
+[colors.hints.start]
+foreground = '#1e1e1e'
+background = '#f5f543'
+
+[colors.hints.end]
+foreground = '#1e1e1e'
+background = '#3b8eea'

@@ -1,0 +1,58 @@
+# Tron Legacy (inspired)
+
+[colors.primary]
+background = '#05080f'
+foreground = '#aee6ff'
+
+[colors.normal]
+black   = '#0f1a2a'
+red     = '#ff5a4a'
+green   = '#4af0a0'
+yellow  = '#ffd23a'
+blue    = '#3a9cff'
+magenta = '#b06cff'
+cyan    = '#00e5ff'
+white   = '#9cc8dc'
+
+[colors.bright]
+black   = '#4d7aa0'
+red     = '#ff857a'
+green   = '#7af7bf'
+yellow  = '#ffe37a'
+blue    = '#70b8ff'
+magenta = '#cc9aff'
+cyan    = '#7af0ff'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#05080f'
+cursor = '#00e5ff'
+
+[colors.vi_mode_cursor]
+text = '#05080f'
+cursor = '#7af0ff'
+
+[colors.selection]
+text = '#aee6ff'
+background = '#035c6a'
+
+[colors.search.matches]
+foreground = '#05080f'
+background = '#ffe37a'
+
+[colors.search.focused_match]
+foreground = '#05080f'
+background = '#ff857a'
+
+[colors.footer_bar]
+foreground = '#aee6ff'
+background = '#23303a'
+
+[colors.hints.start]
+foreground = '#05080f'
+background = '#ffe37a'
+
+[colors.hints.end]
+foreground = '#05080f'
+background = '#70b8ff'

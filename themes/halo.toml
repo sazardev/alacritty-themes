@@ -1,0 +1,58 @@
+# Halo Master Chief (inspired)
+
+[colors.primary]
+background = '#11140e'
+foreground = '#d5dcc5'
+
+[colors.normal]
+black   = '#1d2218'
+red     = '#d9503e'
+green   = '#8bab4e'
+yellow  = '#e0b030'
+blue    = '#5b92e0'
+magenta = '#b07acc'
+cyan    = '#46c8e0'
+white   = '#bcc5aa'
+
+[colors.bright]
+black   = '#5d6650'
+red     = '#f07a68'
+green   = '#aed06e'
+yellow  = '#f5cc55'
+blue    = '#85b0f0'
+magenta = '#cb9ae0'
+cyan    = '#78dcf0'
+white   = '#eef4de'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#11140e'
+cursor = '#e0b030'
+
+[colors.vi_mode_cursor]
+text = '#11140e'
+cursor = '#78dcf0'
+
+[colors.selection]
+text = '#d5dcc5'
+background = '#604f1b'
+
+[colors.search.matches]
+foreground = '#11140e'
+background = '#f5cc55'
+
+[colors.search.focused_match]
+foreground = '#11140e'
+background = '#f07a68'
+
+[colors.footer_bar]
+foreground = '#d5dcc5'
+background = '#34382f'
+
+[colors.hints.start]
+foreground = '#11140e'
+background = '#f5cc55'
+
+[colors.hints.end]
+foreground = '#11140e'
+background = '#85b0f0'

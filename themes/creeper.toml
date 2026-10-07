@@ -1,0 +1,58 @@
+# Minecraft Creeper (inspired)
+
+[colors.primary]
+background = '#0f1a0d'
+foreground = '#c9e8b8'
+
+[colors.normal]
+black   = '#1b2b18'
+red     = '#e0614a'
+green   = '#5ac14a'
+yellow  = '#e0d24a'
+blue    = '#4a9ad0'
+magenta = '#a870c8'
+cyan    = '#3ac8a0'
+white   = '#b0cc9c'
+
+[colors.bright]
+black   = '#567050'
+red     = '#f48a74'
+green   = '#86dd76'
+yellow  = '#f2e67a'
+blue    = '#78b8e8'
+magenta = '#c498dc'
+cyan    = '#6ae0be'
+white   = '#ecfce0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0f1a0d'
+cursor = '#5ac14a'
+
+[colors.vi_mode_cursor]
+text = '#0f1a0d'
+cursor = '#6ae0be'
+
+[colors.selection]
+text = '#c9e8b8'
+background = '#2c5924'
+
+[colors.search.matches]
+foreground = '#0f1a0d'
+background = '#f2e67a'
+
+[colors.search.focused_match]
+foreground = '#0f1a0d'
+background = '#f48a74'
+
+[colors.footer_bar]
+foreground = '#c9e8b8'
+background = '#303f2c'
+
+[colors.hints.start]
+foreground = '#0f1a0d'
+background = '#f2e67a'
+
+[colors.hints.end]
+foreground = '#0f1a0d'
+background = '#78b8e8'

@@ -1,0 +1,58 @@
+# Valorant (inspired)
+
+[colors.primary]
+background = '#0f1923'
+foreground = '#ece8e1'
+
+[colors.normal]
+black   = '#1f2c3a'
+red     = '#ff4655'
+green   = '#5fd0a0'
+yellow  = '#e6c45a'
+blue    = '#4a90d9'
+magenta = '#c46bd6'
+cyan    = '#0ac8b9'
+white   = '#ece8e1'
+
+[colors.bright]
+black   = '#5b6b7c'
+red     = '#ff6f7b'
+green   = '#7fe6bb'
+yellow  = '#f3d77c'
+blue    = '#74aef0'
+magenta = '#dc8ce8'
+cyan    = '#3fe0d2'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0f1923'
+cursor = '#ff4655'
+
+[colors.vi_mode_cursor]
+text = '#0f1923'
+cursor = '#3fe0d2'
+
+[colors.selection]
+text = '#ece8e1'
+background = '#6a2a36'
+
+[colors.search.matches]
+foreground = '#0f1923'
+background = '#f3d77c'
+
+[colors.search.focused_match]
+foreground = '#0f1923'
+background = '#ff6f7b'
+
+[colors.footer_bar]
+foreground = '#ece8e1'
+background = '#373e45'
+
+[colors.hints.start]
+foreground = '#0f1923'
+background = '#f3d77c'
+
+[colors.hints.end]
+foreground = '#0f1923'
+background = '#74aef0'

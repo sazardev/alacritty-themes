@@ -1,0 +1,58 @@
+# Overwatch (inspired)
+
+[colors.primary]
+background = '#1b1e2b'
+foreground = '#edf0f5'
+
+[colors.normal]
+black   = '#2a2f42'
+red     = '#fa4454'
+green   = '#4cd68c'
+yellow  = '#f99e1a'
+blue    = '#218ffe'
+magenta = '#a07cf0'
+cyan    = '#34d4e8'
+white   = '#c8cede'
+
+[colors.bright]
+black   = '#6a7290'
+red     = '#ff7380'
+green   = '#7ae6ac'
+yellow  = '#ffbd54'
+blue    = '#5aaeff'
+magenta = '#bda2f8'
+cyan    = '#70e4f2'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1b1e2b'
+cursor = '#f99e1a'
+
+[colors.vi_mode_cursor]
+text = '#1b1e2b'
+cursor = '#70e4f2'
+
+[colors.selection]
+text = '#edf0f5'
+background = '#6f4f25'
+
+[colors.search.matches]
+foreground = '#1b1e2b'
+background = '#ffbd54'
+
+[colors.search.focused_match]
+foreground = '#1b1e2b'
+background = '#ff7380'
+
+[colors.footer_bar]
+foreground = '#edf0f5'
+background = '#41444f'
+
+[colors.hints.start]
+foreground = '#1b1e2b'
+background = '#ffbd54'
+
+[colors.hints.end]
+foreground = '#1b1e2b'
+background = '#5aaeff'

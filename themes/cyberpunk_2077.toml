@@ -1,0 +1,58 @@
+# Cyberpunk 2077 (inspired)
+
+[colors.primary]
+background = '#0b0c10'
+foreground = '#e9e7c8'
+
+[colors.normal]
+black   = '#1b1d26'
+red     = '#ff2a4d'
+green   = '#8ee05a'
+yellow  = '#fcee0a'
+blue    = '#3b9cff'
+magenta = '#ff4fc3'
+cyan    = '#00f0ff'
+white   = '#d9d7bd'
+
+[colors.bright]
+black   = '#5c6070'
+red     = '#ff6b81'
+green   = '#aaf27a'
+yellow  = '#fff35c'
+blue    = '#6fb8ff'
+magenta = '#ff7fd6'
+cyan    = '#6ff7ff'
+white   = '#fffde8'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0b0c10'
+cursor = '#fcee0a'
+
+[colors.vi_mode_cursor]
+text = '#0b0c10'
+cursor = '#6ff7ff'
+
+[colors.selection]
+text = '#e9e7c8'
+background = '#67620e'
+
+[colors.search.matches]
+foreground = '#0b0c10'
+background = '#fff35c'
+
+[colors.search.focused_match]
+foreground = '#0b0c10'
+background = '#ff6b81'
+
+[colors.footer_bar]
+foreground = '#e9e7c8'
+background = '#333331'
+
+[colors.hints.start]
+foreground = '#0b0c10'
+background = '#fff35c'
+
+[colors.hints.end]
+foreground = '#0b0c10'
+background = '#6fb8ff'

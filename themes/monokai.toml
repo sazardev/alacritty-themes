@@ -1,0 +1,58 @@
+# Monokai (base16)
+
+[colors.primary]
+background = '#272822'
+foreground = '#f8f8f2'
+
+[colors.normal]
+black   = '#272822'
+red     = '#f92672'
+green   = '#a6e22e'
+yellow  = '#f4bf75'
+blue    = '#66d9ef'
+magenta = '#ae81ff'
+cyan    = '#a1efe4'
+white   = '#f8f8f2'
+
+[colors.bright]
+black   = '#75715e'
+red     = '#f92672'
+green   = '#a6e22e'
+yellow  = '#f4bf75'
+blue    = '#66d9ef'
+magenta = '#ae81ff'
+cyan    = '#a1efe4'
+white   = '#f9f8f5'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#272822'
+cursor = '#f8f8f2'
+
+[colors.vi_mode_cursor]
+text = '#272822'
+cursor = '#a1efe4'
+
+[colors.selection]
+text = '#f8f8f2'
+background = '#3f6b70'
+
+[colors.search.matches]
+foreground = '#272822'
+background = '#f4bf75'
+
+[colors.search.focused_match]
+foreground = '#000000'
+background = '#f92672'
+
+[colors.footer_bar]
+foreground = '#f8f8f2'
+background = '#4d4d47'
+
+[colors.hints.start]
+foreground = '#272822'
+background = '#f4bf75'
+
+[colors.hints.end]
+foreground = '#272822'
+background = '#66d9ef'

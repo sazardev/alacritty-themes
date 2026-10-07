@@ -1,0 +1,58 @@
+# Poimandres
+
+[colors.primary]
+background = '#1b1e28'
+foreground = '#a6accd'
+
+[colors.normal]
+black   = '#1b1e28'
+red     = '#d0679d'
+green   = '#5de4c7'
+yellow  = '#fffac2'
+blue    = '#89ddff'
+magenta = '#fcc5e9'
+cyan    = '#add7ff'
+white   = '#ffffff'
+
+[colors.bright]
+black   = '#5f7290'
+red     = '#d0679d'
+green   = '#5de4c7'
+yellow  = '#fffac2'
+blue    = '#add7ff'
+magenta = '#fae4fc'
+cyan    = '#89ddff'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1b1e28'
+cursor = '#a6accd'
+
+[colors.vi_mode_cursor]
+text = '#1b1e28'
+cursor = '#89ddff'
+
+[colors.selection]
+text = '#a6accd'
+background = '#343d4d'
+
+[colors.search.matches]
+foreground = '#1b1e28'
+background = '#fffac2'
+
+[colors.search.focused_match]
+foreground = '#1b1e28'
+background = '#d0679d'
+
+[colors.footer_bar]
+foreground = '#a6accd'
+background = '#343846'
+
+[colors.hints.start]
+foreground = '#1b1e28'
+background = '#fffac2'
+
+[colors.hints.end]
+foreground = '#1b1e28'
+background = '#add7ff'

@@ -1,0 +1,58 @@
+# Cyberpunk Edgerunners (inspired)
+
+[colors.primary]
+background = '#0e0b1a'
+foreground = '#ebe6ff'
+
+[colors.normal]
+black   = '#1d1830'
+red     = '#ff4f7b'
+green   = '#b6ff3b'
+yellow  = '#ffe14d'
+blue    = '#5a8cff'
+magenta = '#ff4fd8'
+cyan    = '#2ee6d6'
+white   = '#d6d0ef'
+
+[colors.bright]
+black   = '#665e8c'
+red     = '#ff7f9f'
+green   = '#cdff72'
+yellow  = '#fff080'
+blue    = '#8aaeff'
+magenta = '#ff7fe4'
+cyan    = '#6ff2e6'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0e0b1a'
+cursor = '#ff4fd8'
+
+[colors.vi_mode_cursor]
+text = '#0e0b1a'
+cursor = '#6ff2e6'
+
+[colors.selection]
+text = '#ebe6ff'
+background = '#6a2562'
+
+[colors.search.matches]
+foreground = '#0e0b1a'
+background = '#fff080'
+
+[colors.search.focused_match]
+foreground = '#0e0b1a'
+background = '#ff7f9f'
+
+[colors.footer_bar]
+foreground = '#ebe6ff'
+background = '#363243'
+
+[colors.hints.start]
+foreground = '#0e0b1a'
+background = '#fff080'
+
+[colors.hints.end]
+foreground = '#0e0b1a'
+background = '#8aaeff'

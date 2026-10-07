@@ -1,0 +1,58 @@
+# Hollow Knight (inspired)
+
+[colors.primary]
+background = '#0b0d14'
+foreground = '#dfe6f2'
+
+[colors.normal]
+black   = '#171b28'
+red     = '#e0707c'
+green   = '#7ec8a8'
+yellow  = '#e0c070'
+blue    = '#7a9cd8'
+magenta = '#a890d8'
+cyan    = '#7ad0e0'
+white   = '#c4cedc'
+
+[colors.bright]
+black   = '#5a6480'
+red     = '#f09aa4'
+green   = '#a4dcc4'
+yellow  = '#f0d898'
+blue    = '#a4bef0'
+magenta = '#c4b4ee'
+cyan    = '#a4e4f0'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0b0d14'
+cursor = '#a4bef0'
+
+[colors.vi_mode_cursor]
+text = '#0b0d14'
+cursor = '#a4e4f0'
+
+[colors.selection]
+text = '#dfe6f2'
+background = '#455068'
+
+[colors.search.matches]
+foreground = '#0b0d14'
+background = '#f0d898'
+
+[colors.search.focused_match]
+foreground = '#0b0d14'
+background = '#f09aa4'
+
+[colors.footer_bar]
+foreground = '#dfe6f2'
+background = '#31343c'
+
+[colors.hints.start]
+foreground = '#0b0d14'
+background = '#f0d898'
+
+[colors.hints.end]
+foreground = '#0b0d14'
+background = '#a4bef0'

@@ -1,0 +1,58 @@
+# Nightfly
+
+[colors.primary]
+background = '#011627'
+foreground = '#c3ccdc'
+
+[colors.normal]
+black   = '#1d3b53'
+red     = '#fc514e'
+green   = '#a1cd5e'
+yellow  = '#e3d18a'
+blue    = '#82aaff'
+magenta = '#c792ea'
+cyan    = '#7fdbca'
+white   = '#a1aab8'
+
+[colors.bright]
+black   = '#7c8f8f'
+red     = '#ff5874'
+green   = '#21c7a8'
+yellow  = '#ecc48d'
+blue    = '#82aaff'
+magenta = '#ae81ff'
+cyan    = '#7fdbca'
+white   = '#d6deeb'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#011627'
+cursor = '#c3ccdc'
+
+[colors.vi_mode_cursor]
+text = '#011627'
+cursor = '#7fdbca'
+
+[colors.selection]
+text = '#c3ccdc'
+background = '#324e79'
+
+[colors.search.matches]
+foreground = '#011627'
+background = '#ecc48d'
+
+[colors.search.focused_match]
+foreground = '#011627'
+background = '#ff5874'
+
+[colors.footer_bar]
+foreground = '#c3ccdc'
+background = '#243748'
+
+[colors.hints.start]
+foreground = '#011627'
+background = '#ecc48d'
+
+[colors.hints.end]
+foreground = '#011627'
+background = '#82aaff'

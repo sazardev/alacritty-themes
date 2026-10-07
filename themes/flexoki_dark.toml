@@ -1,0 +1,58 @@
+# Flexoki Dark
+
+[colors.primary]
+background = '#100f0f'
+foreground = '#cecdc3'
+
+[colors.normal]
+black   = '#1c1b1a'
+red     = '#d14d41'
+green   = '#879a39'
+yellow  = '#d0a215'
+blue    = '#4385be'
+magenta = '#ce5d97'
+cyan    = '#3aa99f'
+white   = '#cecdc3'
+
+[colors.bright]
+black   = '#6f6e69'
+red     = '#e8705f'
+green   = '#a0af54'
+yellow  = '#dfb431'
+blue    = '#66a0c8'
+magenta = '#e47da8'
+cyan    = '#5abdac'
+white   = '#fffcf0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#100f0f'
+cursor = '#cecdc3'
+
+[colors.vi_mode_cursor]
+text = '#100f0f'
+cursor = '#5abdac'
+
+[colors.selection]
+text = '#cecdc3'
+background = '#314655'
+
+[colors.search.matches]
+foreground = '#100f0f'
+background = '#dfb431'
+
+[colors.search.focused_match]
+foreground = '#100f0f'
+background = '#e8705f'
+
+[colors.footer_bar]
+foreground = '#cecdc3'
+background = '#32312f'
+
+[colors.hints.start]
+foreground = '#100f0f'
+background = '#dfb431'
+
+[colors.hints.end]
+foreground = '#100f0f'
+background = '#66a0c8'

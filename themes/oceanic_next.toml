@@ -1,0 +1,58 @@
+# Oceanic Next
+
+[colors.primary]
+background = '#1b2b34'
+foreground = '#c0c5ce'
+
+[colors.normal]
+black   = '#1b2b34'
+red     = '#ec5f67'
+green   = '#99c794'
+yellow  = '#fac863'
+blue    = '#6699cc'
+magenta = '#c594c5'
+cyan    = '#5fb3b3'
+white   = '#c0c5ce'
+
+[colors.bright]
+black   = '#65737e'
+red     = '#ec5f67'
+green   = '#99c794'
+yellow  = '#fac863'
+blue    = '#6699cc'
+magenta = '#c594c5'
+cyan    = '#5fb3b3'
+white   = '#d8dee9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1b2b34'
+cursor = '#c0c5ce'
+
+[colors.vi_mode_cursor]
+text = '#1b2b34'
+cursor = '#5fb3b3'
+
+[colors.selection]
+text = '#c0c5ce'
+background = '#38556e'
+
+[colors.search.matches]
+foreground = '#1b2b34'
+background = '#fac863'
+
+[colors.search.focused_match]
+foreground = '#000000'
+background = '#ec5f67'
+
+[colors.footer_bar]
+foreground = '#c0c5ce'
+background = '#394750'
+
+[colors.hints.start]
+foreground = '#1b2b34'
+background = '#fac863'
+
+[colors.hints.end]
+foreground = '#1b2b34'
+background = '#6699cc'

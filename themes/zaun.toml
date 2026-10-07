@@ -1,0 +1,58 @@
+# Arcane Zaun (inspired)
+
+[colors.primary]
+background = '#0e1411'
+foreground = '#d8e8d0'
+
+[colors.normal]
+black   = '#19241d'
+red     = '#ff6a5a'
+green   = '#7dff5a'
+yellow  = '#e6f03c'
+blue    = '#4fa8e0'
+magenta = '#b45fe0'
+cyan    = '#3fe0b8'
+white   = '#bcd0b4'
+
+[colors.bright]
+black   = '#556b5c'
+red     = '#ff9082'
+green   = '#a2ff88'
+yellow  = '#f4ff7a'
+blue    = '#7cc2f0'
+magenta = '#cc88f0'
+cyan    = '#78f0cf'
+white   = '#f4fff0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0e1411'
+cursor = '#7dff5a'
+
+[colors.vi_mode_cursor]
+text = '#0e1411'
+cursor = '#78f0cf'
+
+[colors.selection]
+text = '#d8e8d0'
+background = '#386d2d'
+
+[colors.search.matches]
+foreground = '#0e1411'
+background = '#f4ff7a'
+
+[colors.search.focused_match]
+foreground = '#0e1411'
+background = '#ff9082'
+
+[colors.footer_bar]
+foreground = '#d8e8d0'
+background = '#323a33'
+
+[colors.hints.start]
+foreground = '#0e1411'
+background = '#f4ff7a'
+
+[colors.hints.end]
+foreground = '#0e1411'
+background = '#7cc2f0'

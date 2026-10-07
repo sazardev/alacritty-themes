@@ -1,0 +1,58 @@
+# Arasaka (inspired)
+
+[colors.primary]
+background = '#0a0a0a'
+foreground = '#e8e8e8'
+
+[colors.normal]
+black   = '#1c1c1c'
+red     = '#e8202a'
+green   = '#7fae7f'
+yellow  = '#d9b44a'
+blue    = '#6f8fb5'
+magenta = '#c0607a'
+cyan    = '#6fb5b5'
+white   = '#cfcfcf'
+
+[colors.bright]
+black   = '#666666'
+red     = '#ff4d55'
+green   = '#9fcf9f'
+yellow  = '#f0cc66'
+blue    = '#8fb0d6'
+magenta = '#de7f98'
+cyan    = '#8fd5d5'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0a0a0a'
+cursor = '#e8202a'
+
+[colors.vi_mode_cursor]
+text = '#0a0a0a'
+cursor = '#8fd5d5'
+
+[colors.selection]
+text = '#e8e8e8'
+background = '#5e1216'
+
+[colors.search.matches]
+foreground = '#0a0a0a'
+background = '#f0cc66'
+
+[colors.search.focused_match]
+foreground = '#0a0a0a'
+background = '#ff4d55'
+
+[colors.footer_bar]
+foreground = '#e8e8e8'
+background = '#323232'
+
+[colors.hints.start]
+foreground = '#0a0a0a'
+background = '#f0cc66'
+
+[colors.hints.end]
+foreground = '#0a0a0a'
+background = '#8fb0d6'

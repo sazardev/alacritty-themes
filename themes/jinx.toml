@@ -1,0 +1,58 @@
+# Arcane Jinx (inspired)
+
+[colors.primary]
+background = '#12101c'
+foreground = '#e8e3f2'
+
+[colors.normal]
+black   = '#1f1b30'
+red     = '#ff5c8a'
+green   = '#7be0a8'
+yellow  = '#ffd35c'
+blue    = '#4cc9f0'
+magenta = '#ff4fa8'
+cyan    = '#3de0e0'
+white   = '#cfc8e0'
+
+[colors.bright]
+black   = '#615b80'
+red     = '#ff85a8'
+green   = '#a2f0c4'
+yellow  = '#ffe28a'
+blue    = '#7cd9f6'
+magenta = '#ff7fc2'
+cyan    = '#75ecec'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#12101c'
+cursor = '#ff4fa8'
+
+[colors.vi_mode_cursor]
+text = '#12101c'
+cursor = '#75ecec'
+
+[colors.selection]
+text = '#e8e3f2'
+background = '#6c2851'
+
+[colors.search.matches]
+foreground = '#12101c'
+background = '#ffe28a'
+
+[colors.search.focused_match]
+foreground = '#12101c'
+background = '#ff85a8'
+
+[colors.footer_bar]
+foreground = '#e8e3f2'
+background = '#393643'
+
+[colors.hints.start]
+foreground = '#12101c'
+background = '#ffe28a'
+
+[colors.hints.end]
+foreground = '#12101c'
+background = '#7cd9f6'

@@ -1,0 +1,58 @@
+# League Hextech (inspired)
+
+[colors.primary]
+background = '#091428'
+foreground = '#f0e6d2'
+
+[colors.normal]
+black   = '#172540'
+red     = '#e8606a'
+green   = '#5fc8a0'
+yellow  = '#c8aa6e'
+blue    = '#4a8ad8'
+magenta = '#a880d8'
+cyan    = '#0ac8b9'
+white   = '#c8bca0'
+
+[colors.bright]
+black   = '#5a6a85'
+red     = '#f58a92'
+green   = '#86dcb8'
+yellow  = '#e6cd8c'
+blue    = '#78a8f0'
+magenta = '#c4a4ec'
+cyan    = '#3fe0d2'
+white   = '#f0e6d2'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#091428'
+cursor = '#c8aa6e'
+
+[colors.vi_mode_cursor]
+text = '#091428'
+cursor = '#3fe0d2'
+
+[colors.selection]
+text = '#f0e6d2'
+background = '#524d43'
+
+[colors.search.matches]
+foreground = '#091428'
+background = '#e6cd8c'
+
+[colors.search.focused_match]
+foreground = '#091428'
+background = '#f58a92'
+
+[colors.footer_bar]
+foreground = '#f0e6d2'
+background = '#333a47'
+
+[colors.hints.start]
+foreground = '#091428'
+background = '#e6cd8c'
+
+[colors.hints.end]
+foreground = '#091428'
+background = '#78a8f0'

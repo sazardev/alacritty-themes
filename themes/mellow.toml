@@ -1,0 +1,58 @@
+# Mellow
+
+[colors.primary]
+background = '#161617'
+foreground = '#c9c7cd'
+
+[colors.normal]
+black   = '#27272a'
+red     = '#f5a191'
+green   = '#90b99f'
+yellow  = '#e6b99d'
+blue    = '#aca1cf'
+magenta = '#e29eca'
+cyan    = '#ea83a5'
+white   = '#c1c0d4'
+
+[colors.bright]
+black   = '#6b6b75'
+red     = '#ffae9f'
+green   = '#9dc6ac'
+yellow  = '#f0c5a9'
+blue    = '#b9aeda'
+magenta = '#ecaad6'
+cyan    = '#f591b2'
+white   = '#cac9dd'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#161617'
+cursor = '#c9c7cd'
+
+[colors.vi_mode_cursor]
+text = '#161617'
+cursor = '#f591b2'
+
+[colors.selection]
+text = '#c9c7cd'
+background = '#545061'
+
+[colors.search.matches]
+foreground = '#161617'
+background = '#f0c5a9'
+
+[colors.search.focused_match]
+foreground = '#161617'
+background = '#ffae9f'
+
+[colors.footer_bar]
+foreground = '#c9c7cd'
+background = '#363638'
+
+[colors.hints.start]
+foreground = '#161617'
+background = '#f0c5a9'
+
+[colors.hints.end]
+foreground = '#161617'
+background = '#b9aeda'

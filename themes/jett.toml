@@ -1,0 +1,58 @@
+# Valorant Jett (inspired)
+
+[colors.primary]
+background = '#0f1a26'
+foreground = '#eaf6ff'
+
+[colors.normal]
+black   = '#1d2c3d'
+red     = '#ff7a8a'
+green   = '#6fe0b0'
+yellow  = '#ffe08a'
+blue    = '#5aa9ff'
+magenta = '#b49cff'
+cyan    = '#6fe3ff'
+white   = '#d4e4f2'
+
+[colors.bright]
+black   = '#5f7790'
+red     = '#ff9aa6'
+green   = '#96efc7'
+yellow  = '#fff0b0'
+blue    = '#86c2ff'
+magenta = '#cdbcff'
+cyan    = '#9aefff'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0f1a26'
+cursor = '#6fe3ff'
+
+[colors.vi_mode_cursor]
+text = '#0f1a26'
+cursor = '#9aefff'
+
+[colors.selection]
+text = '#eaf6ff'
+background = '#336678'
+
+[colors.search.matches]
+foreground = '#0f1a26'
+background = '#fff0b0'
+
+[colors.search.focused_match]
+foreground = '#0f1a26'
+background = '#ff9aa6'
+
+[colors.footer_bar]
+foreground = '#eaf6ff'
+background = '#36424d'
+
+[colors.hints.start]
+foreground = '#0f1a26'
+background = '#fff0b0'
+
+[colors.hints.end]
+foreground = '#0f1a26'
+background = '#86c2ff'

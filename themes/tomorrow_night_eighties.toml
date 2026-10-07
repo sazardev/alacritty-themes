@@ -1,0 +1,58 @@
+# Tomorrow Night Eighties
+
+[colors.primary]
+background = '#2d2d2d'
+foreground = '#cccccc'
+
+[colors.normal]
+black   = '#2d2d2d'
+red     = '#f2777a'
+green   = '#99cc99'
+yellow  = '#ffcc66'
+blue    = '#6699cc'
+magenta = '#cc99cc'
+cyan    = '#66cccc'
+white   = '#cccccc'
+
+[colors.bright]
+black   = '#999999'
+red     = '#f2777a'
+green   = '#99cc99'
+yellow  = '#ffcc66'
+blue    = '#6699cc'
+magenta = '#cc99cc'
+cyan    = '#66cccc'
+white   = '#ffffff'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#2d2d2d'
+cursor = '#cccccc'
+
+[colors.vi_mode_cursor]
+text = '#2d2d2d'
+cursor = '#66cccc'
+
+[colors.selection]
+text = '#cccccc'
+background = '#435669'
+
+[colors.search.matches]
+foreground = '#2d2d2d'
+background = '#ffcc66'
+
+[colors.search.focused_match]
+foreground = '#2d2d2d'
+background = '#f2777a'
+
+[colors.footer_bar]
+foreground = '#cccccc'
+background = '#4a4a4a'
+
+[colors.hints.start]
+foreground = '#2d2d2d'
+background = '#ffcc66'
+
+[colors.hints.end]
+foreground = '#2d2d2d'
+background = '#6699cc'

@@ -1,0 +1,58 @@
+# Swamp
+
+[colors.primary]
+background = '#14180e'
+foreground = '#cfd2a8'
+
+[colors.normal]
+black   = '#232a16'
+red     = '#d4684a'
+green   = '#8ea63a'
+yellow  = '#c8a830'
+blue    = '#5a8aa0'
+magenta = '#9a7aa8'
+cyan    = '#4a9a80'
+white   = '#b4b890'
+
+[colors.bright]
+black   = '#666c48'
+red     = '#e8907a'
+green   = '#b0c85a'
+yellow  = '#e0c860'
+blue    = '#86aac0'
+magenta = '#b69cc4'
+cyan    = '#78baa0'
+white   = '#eceec4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#14180e'
+cursor = '#c8a830'
+
+[colors.vi_mode_cursor]
+text = '#14180e'
+cursor = '#78baa0'
+
+[colors.selection]
+text = '#cfd2a8'
+background = '#584f1b'
+
+[colors.search.matches]
+foreground = '#14180e'
+background = '#e0c860'
+
+[colors.search.focused_match]
+foreground = '#14180e'
+background = '#e8907a'
+
+[colors.footer_bar]
+foreground = '#cfd2a8'
+background = '#36392a'
+
+[colors.hints.start]
+foreground = '#14180e'
+background = '#e0c860'
+
+[colors.hints.end]
+foreground = '#14180e'
+background = '#86aac0'

@@ -1,0 +1,58 @@
+# GitHub Dark Dimmed
+
+[colors.primary]
+background = '#22272e'
+foreground = '#adbac7'
+
+[colors.normal]
+black   = '#545d68'
+red     = '#f47067'
+green   = '#57ab5a'
+yellow  = '#c69026'
+blue    = '#539bf5'
+magenta = '#b083f0'
+cyan    = '#39c5cf'
+white   = '#909dab'
+
+[colors.bright]
+black   = '#768390'
+red     = '#ff938a'
+green   = '#6bc46d'
+yellow  = '#daaa3f'
+blue    = '#6cb6ff'
+magenta = '#dcbdfb'
+cyan    = '#56d4dd'
+white   = '#cdd9e5'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#22272e'
+cursor = '#adbac7'
+
+[colors.vi_mode_cursor]
+text = '#22272e'
+cursor = '#56d4dd'
+
+[colors.selection]
+text = '#adbac7'
+background = '#33485e'
+
+[colors.search.matches]
+foreground = '#22272e'
+background = '#daaa3f'
+
+[colors.search.focused_match]
+foreground = '#22272e'
+background = '#ff938a'
+
+[colors.footer_bar]
+foreground = '#adbac7'
+background = '#3b414a'
+
+[colors.hints.start]
+foreground = '#22272e'
+background = '#daaa3f'
+
+[colors.hints.end]
+foreground = '#22272e'
+background = '#6cb6ff'

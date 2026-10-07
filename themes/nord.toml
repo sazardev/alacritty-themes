@@ -1,0 +1,62 @@
+# Colors (Nord)
+# https://github.com/alacritty/alacritty-theme
+
+# Default colors
+[colors.primary]
+background = '#2E3440'
+foreground = '#D8DEE9'
+
+# Normal colors
+[colors.normal]
+black   = '#3B4252'
+red     = '#BF616A'
+green   = '#A3BE8C'
+yellow  = '#EBCB8B'
+blue    = '#81A1C1'
+magenta = '#B48EAD'
+cyan    = '#88C0D0'
+white   = '#E5E9F0'
+
+# Bright colors
+[colors.bright]
+black   = '#4C566A'
+red     = '#BF616A'
+green   = '#A3BE8C'
+yellow  = '#EBCB8B'
+blue    = '#81A1C1'
+magenta = '#B48EAD'
+cyan    = '#8FBCBB'
+white   = '#ECEFF4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#2E3440'
+cursor = '#D8DEE9'
+
+[colors.vi_mode_cursor]
+text = '#2E3440'
+cursor = '#8FBCBB'
+
+[colors.selection]
+text = '#D8DEE9'
+background = '#4e5d71'
+
+[colors.search.matches]
+foreground = '#2E3440'
+background = '#EBCB8B'
+
+[colors.search.focused_match]
+foreground = '#000000'
+background = '#BF616A'
+
+[colors.footer_bar]
+foreground = '#D8DEE9'
+background = '#4d535e'
+
+[colors.hints.start]
+foreground = '#2E3440'
+background = '#EBCB8B'
+
+[colors.hints.end]
+foreground = '#2E3440'
+background = '#81A1C1'

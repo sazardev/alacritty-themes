@@ -1,0 +1,58 @@
+# Everblush
+
+[colors.primary]
+background = '#141b1e'
+foreground = '#dadada'
+
+[colors.normal]
+black   = '#232a2d'
+red     = '#e57474'
+green   = '#8ccf7e'
+yellow  = '#e5c76b'
+blue    = '#67b0e8'
+magenta = '#c47fd5'
+cyan    = '#6cbfbf'
+white   = '#b3b9b8'
+
+[colors.bright]
+black   = '#66737a'
+red     = '#ef7e7e'
+green   = '#96d988'
+yellow  = '#f4d67a'
+blue    = '#71baf2'
+magenta = '#ce89df'
+cyan    = '#67cbe7'
+white   = '#bdc3c2'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#141b1e'
+cursor = '#dadada'
+
+[colors.vi_mode_cursor]
+text = '#141b1e'
+cursor = '#67cbe7'
+
+[colors.selection]
+text = '#dadada'
+background = '#37576f'
+
+[colors.search.matches]
+foreground = '#141b1e'
+background = '#f4d67a'
+
+[colors.search.focused_match]
+foreground = '#141b1e'
+background = '#ef7e7e'
+
+[colors.footer_bar]
+foreground = '#dadada'
+background = '#383d40'
+
+[colors.hints.start]
+foreground = '#141b1e'
+background = '#f4d67a'
+
+[colors.hints.end]
+foreground = '#141b1e'
+background = '#71baf2'

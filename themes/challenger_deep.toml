@@ -1,0 +1,58 @@
+# Challenger Deep
+
+[colors.primary]
+background = '#1e1c31'
+foreground = '#cbe3e7'
+
+[colors.normal]
+black   = '#141228'
+red     = '#ff5458'
+green   = '#62d196'
+yellow  = '#ffe9aa'
+blue    = '#65b2ff'
+magenta = '#906cff'
+cyan    = '#63f2f1'
+white   = '#a6b3cc'
+
+[colors.bright]
+black   = '#6c6a94'
+red     = '#ff8080'
+green   = '#95ffa4'
+yellow  = '#ffe9aa'
+blue    = '#91ddff'
+magenta = '#c991e1'
+cyan    = '#aaffe4'
+white   = '#cbe3e7'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1e1c31'
+cursor = '#cbe3e7'
+
+[colors.vi_mode_cursor]
+text = '#1e1c31'
+cursor = '#aaffe4'
+
+[colors.selection]
+text = '#cbe3e7'
+background = '#4a657f'
+
+[colors.search.matches]
+foreground = '#1e1c31'
+background = '#ffe9aa'
+
+[colors.search.focused_match]
+foreground = '#1e1c31'
+background = '#ff8080'
+
+[colors.footer_bar]
+foreground = '#cbe3e7'
+background = '#3d4052'
+
+[colors.hints.start]
+foreground = '#1e1c31'
+background = '#ffe9aa'
+
+[colors.hints.end]
+foreground = '#1e1c31'
+background = '#91ddff'

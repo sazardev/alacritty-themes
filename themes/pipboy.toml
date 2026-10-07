@@ -1,0 +1,58 @@
+# Fallout Pip-Boy (inspired)
+
+[colors.primary]
+background = '#031304'
+foreground = '#3dff55'
+
+[colors.normal]
+black   = '#0a2410'
+red     = '#e8644a'
+green   = '#3dff55'
+yellow  = '#d6e84a'
+blue    = '#37c97a'
+magenta = '#7fe0a0'
+cyan    = '#2ee6b0'
+white   = '#8fe89a'
+
+[colors.bright]
+black   = '#2c7a38'
+red     = '#ff8a70'
+green   = '#7dff8f'
+yellow  = '#f0ff7a'
+blue    = '#5de89a'
+magenta = '#a8f0c0'
+cyan    = '#6ff5cc'
+white   = '#d0ffd6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#031304'
+cursor = '#3dff55'
+
+[colors.vi_mode_cursor]
+text = '#031304'
+cursor = '#6ff5cc'
+
+[colors.selection]
+text = '#3dff55'
+background = '#25643d'
+
+[colors.search.matches]
+foreground = '#031304'
+background = '#f0ff7a'
+
+[colors.search.focused_match]
+foreground = '#031304'
+background = '#ff8a70'
+
+[colors.footer_bar]
+foreground = '#3dff55'
+background = '#0d3d13'
+
+[colors.hints.start]
+foreground = '#031304'
+background = '#f0ff7a'
+
+[colors.hints.end]
+foreground = '#031304'
+background = '#5de89a'

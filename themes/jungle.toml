@@ -1,0 +1,58 @@
+# Jungle
+
+[colors.primary]
+background = '#0b1810'
+foreground = '#d0e8d0'
+
+[colors.normal]
+black   = '#162a1c'
+red     = '#f0705a'
+green   = '#3ecf6e'
+yellow  = '#f0c83a'
+blue    = '#3a9ad0'
+magenta = '#c070c0'
+cyan    = '#2ed0b8'
+white   = '#b4ccb4'
+
+[colors.bright]
+black   = '#4f7258'
+red     = '#ff9a86'
+green   = '#6ee898'
+yellow  = '#ffe066'
+blue    = '#6ab8e8'
+magenta = '#d898d8'
+cyan    = '#62e8d2'
+white   = '#f0fff0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0b1810'
+cursor = '#3ecf6e'
+
+[colors.vi_mode_cursor]
+text = '#0b1810'
+cursor = '#62e8d2'
+
+[colors.selection]
+text = '#d0e8d0'
+background = '#1e5e34'
+
+[colors.search.matches]
+foreground = '#0b1810'
+background = '#ffe066'
+
+[colors.search.focused_match]
+foreground = '#0b1810'
+background = '#ff9a86'
+
+[colors.footer_bar]
+foreground = '#d0e8d0'
+background = '#2e3d33'
+
+[colors.hints.start]
+foreground = '#0b1810'
+background = '#ffe066'
+
+[colors.hints.end]
+foreground = '#0b1810'
+background = '#6ab8e8'

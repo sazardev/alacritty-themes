@@ -1,0 +1,58 @@
+# Radioactive
+
+[colors.primary]
+background = '#080a06'
+foreground = '#e0f0b8'
+
+[colors.normal]
+black   = '#151a0e'
+red     = '#ff5030'
+green   = '#a8ff00'
+yellow  = '#ffe600'
+blue    = '#3aa0ff'
+magenta = '#d060ff'
+cyan    = '#00e0a0'
+white   = '#c0cca0'
+
+[colors.bright]
+black   = '#5a6a3c'
+red     = '#ff7a5c'
+green   = '#c4ff4a'
+yellow  = '#fff266'
+blue    = '#70bcff'
+magenta = '#e08cff'
+cyan    = '#4af0bc'
+white   = '#f8ffe0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#080a06'
+cursor = '#a8ff00'
+
+[colors.vi_mode_cursor]
+text = '#080a06'
+cursor = '#4af0bc'
+
+[colors.selection]
+text = '#e0f0b8'
+background = '#456704'
+
+[colors.search.matches]
+foreground = '#080a06'
+background = '#fff266'
+
+[colors.search.focused_match]
+foreground = '#080a06'
+background = '#ff7a5c'
+
+[colors.footer_bar]
+foreground = '#e0f0b8'
+background = '#2f3326'
+
+[colors.hints.start]
+foreground = '#080a06'
+background = '#fff266'
+
+[colors.hints.end]
+foreground = '#080a06'
+background = '#70bcff'

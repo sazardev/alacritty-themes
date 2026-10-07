@@ -1,0 +1,58 @@
+# Nightfox
+
+[colors.primary]
+background = '#192330'
+foreground = '#cdcecf'
+
+[colors.normal]
+black   = '#393b44'
+red     = '#d65b79'
+green   = '#81b29a'
+yellow  = '#dbc074'
+blue    = '#719cd6'
+magenta = '#9d79d6'
+cyan    = '#63cdcf'
+white   = '#dfdfe0'
+
+[colors.bright]
+black   = '#5f6b94'
+red     = '#d16983'
+green   = '#8ebaa4'
+yellow  = '#e0c989'
+blue    = '#86abdc'
+magenta = '#baa1e2'
+cyan    = '#7ad5d6'
+white   = '#e4e4e5'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#192330'
+cursor = '#cdcecf'
+
+[colors.vi_mode_cursor]
+text = '#192330'
+cursor = '#7ad5d6'
+
+[colors.selection]
+text = '#cdcecf'
+background = '#425771'
+
+[colors.search.matches]
+foreground = '#192330'
+background = '#e0c989'
+
+[colors.search.focused_match]
+foreground = '#192330'
+background = '#d16983'
+
+[colors.footer_bar]
+foreground = '#cdcecf'
+background = '#39424d'
+
+[colors.hints.start]
+foreground = '#192330'
+background = '#e0c989'
+
+[colors.hints.end]
+foreground = '#192330'
+background = '#86abdc'

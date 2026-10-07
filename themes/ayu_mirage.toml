@@ -1,0 +1,62 @@
+# Colors (Ayu Mirage)
+
+# Default Colors
+[colors.primary]
+background = "#1f2430"
+foreground = "#cbccc6"
+bright_foreground = "#f28779"
+
+# Normal colors
+[colors.normal]
+black = "#212733"
+red = "#f08778"
+green = "#53bf97"
+yellow = "#fdcc60"
+blue = "#60b8d6"
+magenta = "#ec7171"
+cyan = "#98e6ca"
+white = "#fafafa"
+
+# Bright colors
+[colors.bright]
+black = "#686868"
+red = "#f58c7d"
+green = "#58c49c"
+yellow = "#ffd165"
+blue = "#65bddb"
+magenta = "#f17676"
+cyan = "#9debcf"
+white = "#ffffff"
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1f2430'
+cursor = '#cbccc6'
+
+[colors.vi_mode_cursor]
+text = '#1f2430'
+cursor = '#9debcf'
+
+[colors.selection]
+text = '#cbccc6'
+background = '#385a6c'
+
+[colors.search.matches]
+foreground = '#1f2430'
+background = '#ffd165'
+
+[colors.search.focused_match]
+foreground = '#1f2430'
+background = '#f58c7d'
+
+[colors.footer_bar]
+foreground = '#cbccc6'
+background = '#3e424b'
+
+[colors.hints.start]
+foreground = '#1f2430'
+background = '#ffd165'
+
+[colors.hints.end]
+foreground = '#1f2430'
+background = '#65bddb'

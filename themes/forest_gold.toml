@@ -1,0 +1,58 @@
+# Forest Gold
+
+[colors.primary]
+background = '#101810'
+foreground = '#dcd6b0'
+
+[colors.normal]
+black   = '#1c281c'
+red     = '#d96a50'
+green   = '#6fae5a'
+yellow  = '#d9a93a'
+blue    = '#5a8fb0'
+magenta = '#a07ab0'
+cyan    = '#4aa89a'
+white   = '#c4bf9c'
+
+[colors.bright]
+black   = '#5f7258'
+red     = '#ee9078'
+green   = '#94cc80'
+yellow  = '#f0c866'
+blue    = '#86b0cc'
+magenta = '#c09ccc'
+cyan    = '#78c4b6'
+white   = '#f6f0d0'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#101810'
+cursor = '#d9a93a'
+
+[colors.vi_mode_cursor]
+text = '#101810'
+cursor = '#78c4b6'
+
+[colors.selection]
+text = '#dcd6b0'
+background = '#5c4f20'
+
+[colors.search.matches]
+foreground = '#101810'
+background = '#f0c866'
+
+[colors.search.focused_match]
+foreground = '#101810'
+background = '#ee9078'
+
+[colors.footer_bar]
+foreground = '#dcd6b0'
+background = '#353a2d'
+
+[colors.hints.start]
+foreground = '#101810'
+background = '#f0c866'
+
+[colors.hints.end]
+foreground = '#101810'
+background = '#86b0cc'
