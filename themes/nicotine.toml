@@ -1,0 +1,58 @@
+# Nicotine
+
+[colors.primary]
+background = '#221e18'
+foreground = '#d9ccb0'
+
+[colors.normal]
+black   = '#38332a'
+red     = '#c9654f'
+green   = '#8f9d5a'
+yellow  = '#cfa94e'
+blue    = '#6f8fa0'
+magenta = '#a77a8c'
+cyan    = '#6fa08c'
+white   = '#bfb398'
+
+[colors.bright]
+black   = '#7a7261'
+red     = '#d58776'
+green   = '#a8b37e'
+yellow  = '#dabc75'
+blue    = '#8fa8b5'
+magenta = '#ba97a5'
+cyan    = '#8fb5a5'
+white   = '#e5e1d6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#221e18'
+cursor = '#cfa94e'
+
+[colors.vi_mode_cursor]
+text = '#221e18'
+cursor = '#8fb5a5'
+
+[colors.selection]
+text = '#d9ccb0'
+background = '#64532d'
+
+[colors.search.matches]
+foreground = '#221e18'
+background = '#dabc75'
+
+[colors.search.focused_match]
+foreground = '#221e18'
+background = '#d58776'
+
+[colors.footer_bar]
+foreground = '#d9ccb0'
+background = '#433d33'
+
+[colors.hints.start]
+foreground = '#221e18'
+background = '#dabc75'
+
+[colors.hints.end]
+foreground = '#221e18'
+background = '#8fa8b5'

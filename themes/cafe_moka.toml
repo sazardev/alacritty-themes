@@ -1,0 +1,58 @@
+# Café Moka
+
+[colors.primary]
+background = '#1f1215'
+foreground = '#f0d8d0'
+
+[colors.normal]
+black   = '#382a2b'
+red     = '#e05a64'
+green   = '#8aa868'
+yellow  = '#e0a85a'
+blue    = '#7a94b0'
+magenta = '#c8789c'
+cyan    = '#6cb0a0'
+white   = '#d4bcb8'
+
+[colors.bright]
+black   = '#776564'
+red     = '#e77e86'
+green   = '#a4bb89'
+yellow  = '#e7bb7e'
+blue    = '#97acc1'
+magenta = '#d496b2'
+cyan    = '#8cc1b5'
+white   = '#eee4e3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1f1215'
+cursor = '#c8789c'
+
+[colors.vi_mode_cursor]
+text = '#1f1215'
+cursor = '#8cc1b5'
+
+[colors.selection]
+text = '#f0d8d0'
+background = '#5f3948'
+
+[colors.search.matches]
+foreground = '#1f1215'
+background = '#e7bb7e'
+
+[colors.search.focused_match]
+foreground = '#1f1215'
+background = '#e77e86'
+
+[colors.footer_bar]
+foreground = '#f0d8d0'
+background = '#453637'
+
+[colors.hints.start]
+foreground = '#1f1215'
+background = '#e7bb7e'
+
+[colors.hints.end]
+foreground = '#1f1215'
+background = '#97acc1'

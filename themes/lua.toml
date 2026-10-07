@@ -1,0 +1,58 @@
+# Lua
+
+[colors.primary]
+background = '#0b1030'
+foreground = '#dfe6f5'
+
+[colors.normal]
+black   = '#242a48'
+red     = '#f06070'
+green   = '#70d890'
+yellow  = '#e8cc70'
+blue    = '#5a78e8'
+magenta = '#b080e8'
+cyan    = '#50c8e8'
+white   = '#ccd4e8'
+
+[colors.bright]
+black   = '#646a83'
+red     = '#f3838f'
+green   = '#8fe1a8'
+yellow  = '#edd78f'
+blue    = '#7e96ed'
+magenta = '#c19ced'
+cyan    = '#76d4ed'
+white   = '#ebeef6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0b1030'
+cursor = '#5a78e8'
+
+[colors.vi_mode_cursor]
+text = '#0b1030'
+cursor = '#76d4ed'
+
+[colors.selection]
+text = '#dfe6f5'
+background = '#293876'
+
+[colors.search.matches]
+foreground = '#0b1030'
+background = '#edd78f'
+
+[colors.search.focused_match]
+foreground = '#0b1030'
+background = '#f3838f'
+
+[colors.footer_bar]
+foreground = '#dfe6f5'
+background = '#313753'
+
+[colors.hints.start]
+foreground = '#0b1030'
+background = '#edd78f'
+
+[colors.hints.end]
+foreground = '#0b1030'
+background = '#7e96ed'

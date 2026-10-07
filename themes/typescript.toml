@@ -1,0 +1,58 @@
+# TypeScript
+
+[colors.primary]
+background = '#0f1824'
+foreground = '#e0e8f4'
+
+[colors.normal]
+black   = '#28313d'
+red     = '#f0646e'
+green   = '#6fd49a'
+yellow  = '#f0d070'
+blue    = '#5a9ae8'
+magenta = '#b88ae8'
+cyan    = '#4ac8e0'
+white   = '#ccd6e6'
+
+[colors.bright]
+black   = '#636b77'
+red     = '#f3868e'
+green   = '#8fddb0'
+yellow  = '#f3da8f'
+blue    = '#7eb0ed'
+magenta = '#c8a4ed'
+cyan    = '#72d4e7'
+white   = '#ebeff5'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0f1824'
+cursor = '#5a9ae8'
+
+[colors.vi_mode_cursor]
+text = '#0f1824'
+cursor = '#72d4e7'
+
+[colors.selection]
+text = '#e0e8f4'
+background = '#2c496e'
+
+[colors.search.matches]
+foreground = '#0f1824'
+background = '#f3da8f'
+
+[colors.search.focused_match]
+foreground = '#0f1824'
+background = '#f3868e'
+
+[colors.footer_bar]
+foreground = '#e0e8f4'
+background = '#353d49'
+
+[colors.hints.start]
+foreground = '#0f1824'
+background = '#f3da8f'
+
+[colors.hints.end]
+foreground = '#0f1824'
+background = '#7eb0ed'

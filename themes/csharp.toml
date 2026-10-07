@@ -1,0 +1,58 @@
+# C#
+
+[colors.primary]
+background = '#17121f'
+foreground = '#e8e0f4'
+
+[colors.normal]
+black   = '#302b39'
+red     = '#ee5a7a'
+green   = '#6ccb8a'
+yellow  = '#eac060'
+blue    = '#6a8ee8'
+magenta = '#c070d8'
+cyan    = '#4ac4dc'
+white   = '#d0c8e0'
+
+[colors.bright]
+black   = '#6f6978'
+red     = '#f27e97'
+green   = '#8cd6a4'
+yellow  = '#efce83'
+blue    = '#8ba7ed'
+magenta = '#ce8fe1'
+cyan    = '#72d1e4'
+white   = '#ece9f3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#17121f'
+cursor = '#c070d8'
+
+[colors.vi_mode_cursor]
+text = '#17121f'
+cursor = '#72d1e4'
+
+[colors.selection]
+text = '#e8e0f4'
+background = '#573665'
+
+[colors.search.matches]
+foreground = '#17121f'
+background = '#efce83'
+
+[colors.search.focused_match]
+foreground = '#17121f'
+background = '#f27e97'
+
+[colors.footer_bar]
+foreground = '#e8e0f4'
+background = '#3d3745'
+
+[colors.hints.start]
+foreground = '#17121f'
+background = '#efce83'
+
+[colors.hints.end]
+foreground = '#17121f'
+background = '#8ba7ed'

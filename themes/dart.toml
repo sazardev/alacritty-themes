@@ -1,0 +1,58 @@
+# Dart / Flutter
+
+[colors.primary]
+background = '#0b1620'
+foreground = '#e0f0fa'
+
+[colors.normal]
+black   = '#25303a'
+red     = '#f06070'
+green   = '#5ee0a0'
+yellow  = '#f5d060'
+blue    = '#3aa0f0'
+magenta = '#b080f0'
+cyan    = '#13b9fd'
+white   = '#cce0ee'
+
+[colors.bright]
+black   = '#606d77'
+red     = '#f3838f'
+green   = '#81e7b5'
+yellow  = '#f7da83'
+blue    = '#65b5f3'
+magenta = '#c19cf3'
+cyan    = '#47c8fd'
+white   = '#ebf3f8'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0b1620'
+cursor = '#13b9fd'
+
+[colors.vi_mode_cursor]
+text = '#0b1620'
+cursor = '#47c8fd'
+
+[colors.selection]
+text = '#e0f0fa'
+background = '#0e5474'
+
+[colors.search.matches]
+foreground = '#0b1620'
+background = '#f7da83'
+
+[colors.search.focused_match]
+foreground = '#0b1620'
+background = '#f3838f'
+
+[colors.footer_bar]
+foreground = '#e0f0fa'
+background = '#313d47'
+
+[colors.hints.start]
+foreground = '#0b1620'
+background = '#f7da83'
+
+[colors.hints.end]
+foreground = '#0b1620'
+background = '#65b5f3'

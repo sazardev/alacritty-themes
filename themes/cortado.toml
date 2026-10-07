@@ -1,0 +1,58 @@
+# Cortado
+
+[colors.primary]
+background = '#231a15'
+foreground = '#e6d4bc'
+
+[colors.normal]
+black   = '#3a3029'
+red     = '#d86a52'
+green   = '#96a860'
+yellow  = '#dcae5a'
+blue    = '#7498a8'
+magenta = '#b47c8e'
+cyan    = '#70ac94'
+white   = '#c8b8a0'
+
+[colors.bright]
+black   = '#796c5e'
+red     = '#e18b78'
+green   = '#adbb83'
+yellow  = '#e4c07e'
+blue    = '#93afbb'
+magenta = '#c499a7'
+cyan    = '#8fbeac'
+white   = '#e9e3d9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#231a15'
+cursor = '#e0b070'
+
+[colors.vi_mode_cursor]
+text = '#231a15'
+cursor = '#8fbeac'
+
+[colors.selection]
+text = '#e6d4bc'
+background = '#6b5338'
+
+[colors.search.matches]
+foreground = '#231a15'
+background = '#e4c07e'
+
+[colors.search.focused_match]
+foreground = '#231a15'
+background = '#e18b78'
+
+[colors.footer_bar]
+foreground = '#e6d4bc'
+background = '#463b33'
+
+[colors.hints.start]
+foreground = '#231a15'
+background = '#e4c07e'
+
+[colors.hints.end]
+foreground = '#231a15'
+background = '#93afbb'

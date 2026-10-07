@@ -1,0 +1,58 @@
+# Cappuccino
+
+[colors.primary]
+background = '#2a1f19'
+foreground = '#eddcc8'
+
+[colors.normal]
+black   = '#41362e'
+red     = '#de6f58'
+green   = '#9cae6a'
+yellow  = '#e8b866'
+blue    = '#7ea0b0'
+magenta = '#bc8095'
+cyan    = '#7cb89f'
+white   = '#d3c1ac'
+
+[colors.bright]
+black   = '#807266'
+red     = '#e58f7d'
+green   = '#b2c08b'
+yellow  = '#edc888'
+blue    = '#9ab5c1'
+magenta = '#cb9cac'
+cyan    = '#99c8b4'
+white   = '#ede6de'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#2a1f19'
+cursor = '#e8b866'
+
+[colors.vi_mode_cursor]
+text = '#2a1f19'
+cursor = '#99c8b4'
+
+[colors.selection]
+text = '#eddcc8'
+background = '#725936'
+
+[colors.search.matches]
+foreground = '#2a1f19'
+background = '#edc888'
+
+[colors.search.focused_match]
+foreground = '#2a1f19'
+background = '#e58f7d'
+
+[colors.footer_bar]
+foreground = '#eddcc8'
+background = '#4d4138'
+
+[colors.hints.start]
+foreground = '#2a1f19'
+background = '#edc888'
+
+[colors.hints.end]
+foreground = '#2a1f19'
+background = '#9ab5c1'

@@ -1,0 +1,58 @@
+# Swift
+
+[colors.primary]
+background = '#170f0d'
+foreground = '#f4e6e0'
+
+[colors.normal]
+black   = '#322926'
+red     = '#f0503a'
+green   = '#78c88a'
+yellow  = '#f5b84a'
+blue    = '#5a9ee0'
+magenta = '#e06aa0'
+cyan    = '#4ec4c4'
+white   = '#dccac4'
+
+[colors.bright]
+black   = '#6f6561'
+red     = '#f37665'
+green   = '#96d4a4'
+yellow  = '#f7c872'
+blue    = '#7eb3e7'
+magenta = '#e78bb5'
+cyan    = '#75d1d1'
+white   = '#f1eae7'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#170f0d'
+cursor = '#f0503a'
+
+[colors.vi_mode_cursor]
+text = '#170f0d'
+cursor = '#75d1d1'
+
+[colors.selection]
+text = '#f4e6e0'
+background = '#69281e'
+
+[colors.search.matches]
+foreground = '#170f0d'
+background = '#f7c872'
+
+[colors.search.focused_match]
+foreground = '#170f0d'
+background = '#f37665'
+
+[colors.footer_bar]
+foreground = '#f4e6e0'
+background = '#3f3633'
+
+[colors.hints.start]
+foreground = '#170f0d'
+background = '#f7c872'
+
+[colors.hints.end]
+foreground = '#170f0d'
+background = '#7eb3e7'

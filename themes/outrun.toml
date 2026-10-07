@@ -1,0 +1,58 @@
+# Outrun
+
+[colors.primary]
+background = '#0d0221'
+foreground = '#f1e6ff'
+
+[colors.normal]
+black   = '#281d3c'
+red     = '#ff2975'
+green   = '#0be881'
+yellow  = '#f9f871'
+blue    = '#4d7cff'
+magenta = '#ff2fd1'
+cyan    = '#00e5ff'
+white   = '#d9c8f5'
+
+[colors.bright]
+black   = '#6d627e'
+red     = '#ff5893'
+green   = '#41ed9d'
+yellow  = '#fafa90'
+blue    = '#7499ff'
+magenta = '#ff5ddb'
+cyan    = '#38ebff'
+white   = '#f0e9fb'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0d0221'
+cursor = '#ff2975'
+
+[colors.vi_mode_cursor]
+text = '#0d0221'
+cursor = '#38ebff'
+
+[colors.selection]
+text = '#f1e6ff'
+background = '#691141'
+
+[colors.search.matches]
+foreground = '#0d0221'
+background = '#fafa90'
+
+[colors.search.focused_match]
+foreground = '#0d0221'
+background = '#ff5893'
+
+[colors.footer_bar]
+foreground = '#f1e6ff'
+background = '#362b49'
+
+[colors.hints.start]
+foreground = '#0d0221'
+background = '#fafa90'
+
+[colors.hints.end]
+foreground = '#0d0221'
+background = '#7499ff'

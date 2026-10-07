@@ -1,0 +1,58 @@
+# Space Age
+
+[colors.primary]
+background = '#0b1520'
+foreground = '#d8ecf0'
+
+[colors.normal]
+black   = '#242f39'
+red     = '#ff6a4a'
+green   = '#7fd8a0'
+yellow  = '#ffc857'
+blue    = '#4aa3d6'
+magenta = '#d77fb0'
+cyan    = '#4fd8d0'
+white   = '#cfe0e4'
+
+[colors.bright]
+black   = '#5d6b73'
+red     = '#ff8b72'
+green   = '#9be1b5'
+yellow  = '#ffd47c'
+blue    = '#72b7df'
+magenta = '#e09bc1'
+cyan    = '#76e1da'
+white   = '#ecf3f4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0b1520'
+cursor = '#ffc857'
+
+[colors.vi_mode_cursor]
+text = '#0b1520'
+cursor = '#76e1da'
+
+[colors.selection]
+text = '#d8ecf0'
+background = '#685935'
+
+[colors.search.matches]
+foreground = '#0b1520'
+background = '#ffd47c'
+
+[colors.search.focused_match]
+foreground = '#0b1520'
+background = '#ff8b72'
+
+[colors.footer_bar]
+foreground = '#d8ecf0'
+background = '#303c45'
+
+[colors.hints.start]
+foreground = '#0b1520'
+background = '#ffd47c'
+
+[colors.hints.end]
+foreground = '#0b1520'
+background = '#72b7df'

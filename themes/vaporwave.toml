@@ -1,0 +1,58 @@
+# Vaporwave
+
+[colors.primary]
+background = '#1b1230'
+foreground = '#f0e0ff'
+
+[colors.normal]
+black   = '#352b49'
+red     = '#ff7aa8'
+green   = '#8cffc4'
+yellow  = '#fff29a'
+blue    = '#8fb4ff'
+magenta = '#d68cff'
+cyan    = '#8ff5f5'
+white   = '#e4d4f4'
+
+[colors.bright]
+black   = '#746987'
+red     = '#ff97bb'
+green   = '#a5ffd1'
+yellow  = '#fff5b0'
+blue    = '#a8c4ff'
+magenta = '#dfa5ff'
+cyan    = '#a8f7f7'
+white   = '#f4eefb'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1b1230'
+cursor = '#d68cff'
+
+[colors.vi_mode_cursor]
+text = '#1b1230'
+cursor = '#a8f7f7'
+
+[colors.selection]
+text = '#f0e0ff'
+background = '#62407f'
+
+[colors.search.matches]
+foreground = '#1b1230'
+background = '#fff5b0'
+
+[colors.search.focused_match]
+foreground = '#1b1230'
+background = '#ff97bb'
+
+[colors.footer_bar]
+foreground = '#f0e0ff'
+background = '#413755'
+
+[colors.hints.start]
+foreground = '#1b1230'
+background = '#fff5b0'
+
+[colors.hints.end]
+foreground = '#1b1230'
+background = '#a8c4ff'

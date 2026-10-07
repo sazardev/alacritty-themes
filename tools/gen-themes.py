@@ -171,6 +171,99 @@ t("amber_crt", "Amber CRT", "#120c02", "#ffb000",
   "#241804 #ff5a3a #b8c030 #ffb000 #d08a30 #e8806a #d0c870 #ffd070",
   "#7a5a1a #ff8060 #d4dc50 #ffc83a #e8a850 #f4a090 #e8e090 #fff0c0")
 
+# ---- familias nuevas: gruvbox/cálidos, retrowave/retrofuturista, colorful ----
+# t2 solo recibe el matiz base; deriva negro, bright y bright black con reglas fijas
+# y aclara cualquier color que no llegue a 4.3:1 contra el fondo.
+def _rgb(h): h = h.lstrip("#"); return [int(h[i:i+2], 16) for i in (0, 2, 4)]
+def _hex(c): return "#%02x%02x%02x" % tuple(max(0, min(255, round(x))) for x in c)
+def _mix(a, b, k): return _hex([x + (y - x) * k for x, y in zip(_rgb(a), _rgb(b))])
+def _lum(h):
+    c = [x / 255 for x in _rgb(h)]
+    c = [x / 12.92 if x <= 0.03928 else ((x + 0.055) / 1.055) ** 2.4 for x in c]
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]
+def _cr(a, b):
+    la, lb = sorted((_lum(a), _lum(b)), reverse=True); return (la + 0.05) / (lb + 0.05)
+def _lift(c, bg, need):
+    k = 0.0
+    while _cr(c, bg) < need and k < 1:
+        k += 0.03; c = _mix(c, "#ffffff", 0.03 / (1 - k + 0.03) if k < 0.97 else 1)
+    return c
+def t2(name, title, bg, fg, base):
+    cols = [_lift(c, bg, 4.3) for c in base.split()]           # red..white
+    black = _mix(bg, fg, 0.12)
+    bb = bg
+    for k in range(20, 80, 2):                                  # bright black >= 3.3:1
+        bb = _mix(bg, fg, k / 100)
+        if _cr(bb, bg) >= 3.3: break
+    bright = [_mix(c, "#ffffff", 0.22) for c in cols[:6]] + [_mix(cols[6], "#ffffff", 0.6)]
+    T[name] = (title, bg, fg, [black] + cols, [bb] + bright)
+
+# Gruvbox y cálidos apagados
+t2("gruvbox_hard_dark", "Gruvbox Hard Dark", "#1d2021", "#ebdbb2", "#e5513f #a8a52a #e0a526 #6fa0a8 #c97b95 #8ec07c #d5c4a1")
+t2("gruvbox_soft", "Gruvbox Soft", "#32302f", "#ebdbb2", "#e5604a #aaa83a #e3aa3a #78a5ad #cf88a0 #93c482 #d5c4a1")
+t2("gruvbox_plum", "Gruvbox Plum", "#2a2229", "#e8d7c6", "#e0605a #a6b05c #e3b04b #78a0b5 #cf86a8 #85bfa5 #cdbfb0")
+t2("coffee", "Coffee", "#1f1a16", "#e6d5b8", "#d9644a #a3a860 #e0b050 #7fa5a8 #c08a9c #86b89a #cdbfa3")
+t2("autumn", "Autumn", "#1c1512", "#e8d3b5", "#d9553b #9aa84a #e8a23a #6a94a8 #b8708a #6fae94 #cbb99a")
+t2("desert_dusk", "Desert Dusk", "#201a1a", "#e3d2c3", "#d66a5c #9db17c #e0b46a #7f9fb8 #c487a0 #7fbfae #cdbaa8")
+t2("terracotta", "Terracotta", "#231815", "#f0dccb", "#e2674e #8fae6a #eab255 #6f9bbd #d17f9c #66b7a5 #d4bfae")
+t2("sunset_ember", "Sunset Ember", "#1a1114", "#f2d8c8", "#ff5a4d #b9c25a #ffb347 #7aa2d6 #e56b9f #5fc9b5 #d8c0b4")
+t2("nicotine", "Nicotine", "#221e18", "#d9ccb0", "#c9654f #8f9d5a #cfa94e #6f8fa0 #a77a8c #6fa08c #bfb398")
+t2("sage", "Sage", "#1c211e", "#d6dccb", "#cf7a6a #94b27e #d5b86c #7fa0b4 #b58aa5 #78b5a5 #c2cab5")
+# Retrowave / retrofuturista
+t2("outrun", "Outrun", "#0d0221", "#f1e6ff", "#ff2975 #0be881 #f9f871 #4d7cff #ff2fd1 #00e5ff #d9c8f5")
+t2("retrowave_sunset", "Retrowave Sunset", "#1a0b2e", "#ffe9f3", "#ff4f6d #7bf0a0 #ffb347 #6f8cff #ff5ac8 #4dd8ff #e8cfe8")
+t2("miami_vice", "Miami Vice", "#0c1b2a", "#f4f1ff", "#ff5a7a #3ff5c0 #ffe36e #4aa8ff #ff6ad5 #2fe6e6 #d6e4f0")
+t2("vaporwave", "Vaporwave", "#1b1230", "#f0e0ff", "#ff7aa8 #8cffc4 #fff29a #8fb4ff #d68cff #8ff5f5 #e4d4f4")
+t2("laserwave", "Laserwave", "#27212e", "#e0e0e0", "#eb64b9 #74dfc4 #ffe261 #40b4c4 #b381c5 #6bd5e8 #e0d8e8")
+t2("retro_70s", "Retro 70s", "#1f1812", "#f0dfc0", "#d9482b #8fa03a #e5ad2d #3d8fa8 #c4608a #4fb3a0 #d9c8a8")
+t2("space_age", "Space Age", "#0b1520", "#d8ecf0", "#ff6a4a #7fd8a0 #ffc857 #4aa3d6 #d77fb0 #4fd8d0 #cfe0e4")
+t2("atomic_age", "Atomic Age", "#1b2226", "#efe6d2", "#f26b5b #7cc4a0 #f2c14e #5aa5c9 #d98aa8 #5fcfc4 #d8ceb8")
+t2("blade_runner", "Blade Runner", "#0a0f18", "#d0d8e0", "#ff4a3d #66d9a8 #ffb02e #3a9ad9 #e0509a #2fd4d0 #b8c4cc")
+t2("arcade_cabinet", "Arcade Cabinet", "#0a0a1a", "#f0f0ff", "#ff3355 #33ff77 #ffe033 #3377ff #ff33cc #33eeff #e0e0ee")
+# Colorful
+t2("candy", "Candy", "#1c1426", "#fdf0ff", "#ff6b8b #7dffb2 #ffe66d #6bb5ff #ff8cf0 #6bf5ff #f0dcf5")
+t2("prism", "Prism", "#101018", "#eeeef6", "#ff5555 #55e07a #f5d442 #5588ff #cc66ff #44ddee #d8d8e4")
+t2("tropical", "Tropical", "#0d1f1f", "#f0f5e0", "#ff6a5e #6be37a #ffd23f #3fa7ff #ff6fb5 #2fe0c8 #d8e8d0")
+t2("aurora", "Aurora", "#0a1620", "#d8f0f0", "#ff7088 #6bffb0 #e8f08a #6aa0ff #b88cff #5ff0e0 #c8dce4")
+t2("jewel", "Jewel", "#120f1a", "#ece6f4", "#e0455f #2fcf8a #f0b43a #4a78e8 #b05fe0 #2fc4cf #cfc8dc")
+t2("festival", "Festival", "#1a0f0a", "#fff0e0", "#ff4d3d #8be04a #ffc933 #4aa8ff #ff52a8 #3fe0c0 #e8d8c8")
+t2("ocean_reef", "Ocean Reef", "#07182a", "#e0f4ff", "#ff6f7a #5ef0b0 #ffd86a #4aa8ff #ff7ac8 #38e0f0 #cce4f0")
+t2("spring_bloom", "Spring Bloom", "#1d1822", "#f3e8f0", "#ff8a9a #a8e68a #ffe08a #8ab8ff #e69ae8 #8ae6e0 #e0d4e0")
+
+# ---- lenguajes de programación (inspirados en el color de marca de cada uno) ----
+t2("python", "Python", "#11161d", "#e6edf3", "#e5646a #6fcf8a #ffd43b #5b9bd5 #b08ee0 #4fc3d9 #cfd8e3")
+t2("rust", "Rust", "#1a1512", "#ecdcc8", "#e5533d #9db563 #e6a756 #6e9cb8 #c4789a #6fb5a8 #d1c0aa")
+t2("golang", "Go", "#0f1a22", "#e0f0f5", "#f0675a #5fd0a0 #f0cc60 #3fa8e0 #b387d9 #00c8e8 #cbdde6")
+t2("javascript", "JavaScript", "#121212", "#f0eee0", "#ff6159 #7ed957 #f7df1e #5aa6f5 #d57ae0 #4fd6d0 #d8d4c0")
+t2("typescript", "TypeScript", "#0f1824", "#e0e8f4", "#f0646e #6fd49a #f0d070 #5a9ae8 #b88ae8 #4ac8e0 #ccd6e6")
+t2("ruby", "Ruby", "#1c0f12", "#f0dcdc", "#ee4a4a #8fc46f #e8b45a #6a95d0 #e0609a #5cbfb0 #d9c4c4")
+t2("php", "PHP", "#15152b", "#e4e4f4", "#f06a80 #78d29a #eac870 #7a86e0 #b88ae0 #5cc8dc #cdcde4")
+t2("java", "Java", "#14181f", "#e8ecf0", "#f0553a #6fc48a #f2a33a #5a8fc0 #c07aa8 #4fbfc4 #d0d8e0")
+t2("kotlin", "Kotlin", "#14101c", "#ece4f4", "#ee4a6a #6fd09a #f5b04a #6a8cf5 #a97aff #4fd0d8 #d4cce4")
+t2("swift", "Swift", "#170f0d", "#f4e6e0", "#f0503a #78c88a #f5b84a #5a9ee0 #e06aa0 #4ec4c4 #dccac4")
+t2("csharp", "C#", "#17121f", "#e8e0f4", "#ee5a7a #6ccb8a #eac060 #6a8ee8 #c070d8 #4ac4dc #d0c8e0")
+t2("elixir", "Elixir", "#150f1f", "#eadff5", "#f0607a #7ad4a0 #f0c878 #7a8cf0 #b070f0 #5acce0 #d4c8e8")
+t2("haskell", "Haskell", "#12101e", "#e4def0", "#ee6078 #78cc9a #e8c470 #7090e8 #a06ad8 #58c0d8 #cdc6e0")
+t2("lua", "Lua", "#0b1030", "#dfe6f5", "#f06070 #70d890 #e8cc70 #5a78e8 #b080e8 #50c8e8 #ccd4e8")
+t2("zig", "Zig", "#1a1408", "#f0e6d0", "#ee5a3a #98c860 #f7a41d #5a9ad0 #d0709a #58c0a8 #d8ccb4")
+t2("nodejs", "Node.js", "#0e150f", "#e0efe0", "#f0645a #68c657 #e8cd5a #5aa0e0 #c07ad8 #4cc8b8 #cadcca")
+t2("dart", "Dart / Flutter", "#0b1620", "#e0f0fa", "#f06070 #5ee0a0 #f5d060 #3aa0f0 #b080f0 #13b9fd #cce0ee")
+t2("julia", "Julia", "#12121a", "#ece8f0", "#e5534b #5ec050 #e8c050 #5a8fe0 #b072d0 #4cc0c8 #d4d0dc")
+# ---- cafés ----
+t2("espresso", "Espresso", "#140d0a", "#e8d5c0", "#d9634a #8fa05a #e0a850 #6e90a0 #b0728a #6fa890 #c9b8a2")
+t2("cappuccino", "Cappuccino", "#2a1f19", "#eddcc8", "#de6f58 #9cae6a #e8b866 #7ea0b0 #bc8095 #7cb89f #d3c1ac")
+t2("americano", "Americano", "#1a1411", "#d9cdbc", "#c8604c #8a9a62 #cba35a #6c8898 #a47890 #6a9c8a #bfb2a0")
+t2("cortado", "Cortado", "#231a15", "#e6d4bc", "#d86a52 #96a860 #dcae5a #7498a8 #b47c8e #70ac94 #c8b8a0")
+t2("cafe_moka", "Café Moka", "#1f1215", "#f0d8d0", "#e05a64 #8aa868 #e0a85a #7a94b0 #c8789c #6cb0a0 #d4bcb8")
+t2("caramel_macchiato", "Caramel Macchiato", "#2b1c12", "#f5e1c4", "#e8704a #a0b45a #f0b840 #7a9eb0 #c8809a #78bca0 #dcc8a8")
+t2("cold_brew", "Cold Brew", "#0e1314", "#d8e4e0", "#d86a58 #86b080 #d2b068 #6a9cb8 #a880a0 #5cb8b0 #bccac4")
+t2("cafe_de_olla", "Café de Olla", "#1e130e", "#ecd5b4", "#d25a3a #8ca350 #e0a030 #6a94a0 #c07080 #62a89a #cdb898")
+t2("flat_white", "Flat White", "#24201c", "#efe6d8", "#d9705f #9bb078 #ddb86a #7c9fb8 #b98aa4 #7ab8a8 #d6ccbc")
+t2("irish_coffee", "Irish Coffee", "#18140f", "#e4dcc4", "#d4604a #7fb06a #e0a840 #6f94a8 #b07a90 #62b0a0 #cabfa4")
+t2("turkish_coffee", "Turkish Coffee", "#1b1210", "#e8d0b8", "#d4553e #98a850 #e6a030 #5e8aa8 #b8607c #58a898 #c9b09a")
+t2("affogato", "Affogato", "#1c1814", "#f6eede", "#e0705c #a4b878 #ecc468 #86a8c0 #c490a8 #84c0aa #e4d8c4")
+t2("cafe_bombon", "Café Bombón", "#241810", "#f2e0c0", "#e0644a #98ac5c #f2c050 #7098b0 #c07c94 #6ab4a0 #dccaa8")
+
 NAMES = "black red green yellow blue magenta cyan white".split()
 
 def lum(h):

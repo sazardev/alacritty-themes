@@ -1,0 +1,58 @@
+# Aurora
+
+[colors.primary]
+background = '#0a1620'
+foreground = '#d8f0f0'
+
+[colors.normal]
+black   = '#233039'
+red     = '#ff7088'
+green   = '#6bffb0'
+yellow  = '#e8f08a'
+blue    = '#6aa0ff'
+magenta = '#b88cff'
+cyan    = '#5ff0e0'
+white   = '#c8dce4'
+
+[colors.bright]
+black   = '#5c6d73'
+red     = '#ff8fa2'
+green   = '#8cffc1'
+yellow  = '#edf3a4'
+blue    = '#8bb5ff'
+magenta = '#c8a5ff'
+cyan    = '#82f3e7'
+white   = '#e9f1f4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0a1620'
+cursor = '#6bffb0'
+
+[colors.vi_mode_cursor]
+text = '#0a1620'
+cursor = '#82f3e7'
+
+[colors.selection]
+text = '#d8f0f0'
+background = '#2f6f57'
+
+[colors.search.matches]
+foreground = '#0a1620'
+background = '#edf3a4'
+
+[colors.search.focused_match]
+foreground = '#0a1620'
+background = '#ff8fa2'
+
+[colors.footer_bar]
+foreground = '#d8f0f0'
+background = '#2f3d45'
+
+[colors.hints.start]
+foreground = '#0a1620'
+background = '#edf3a4'
+
+[colors.hints.end]
+foreground = '#0a1620'
+background = '#8bb5ff'

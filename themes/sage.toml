@@ -1,0 +1,58 @@
+# Sage
+
+[colors.primary]
+background = '#1c211e'
+foreground = '#d6dccb'
+
+[colors.normal]
+black   = '#323733'
+red     = '#cf7a6a'
+green   = '#94b27e'
+yellow  = '#d5b86c'
+blue    = '#7fa0b4'
+magenta = '#b58aa5'
+cyan    = '#78b5a5'
+white   = '#c2cab5'
+
+[colors.bright]
+black   = '#6e736a'
+red     = '#da978b'
+green   = '#acc39a'
+yellow  = '#dec88c'
+blue    = '#9bb5c4'
+magenta = '#c5a4b9'
+cyan    = '#96c5b9'
+white   = '#e7eae1'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1c211e'
+cursor = '#94b27e'
+
+[colors.vi_mode_cursor]
+text = '#1c211e'
+cursor = '#96c5b9'
+
+[colors.selection]
+text = '#d6dccb'
+background = '#4a5842'
+
+[colors.search.matches]
+foreground = '#1c211e'
+background = '#dec88c'
+
+[colors.search.focused_match]
+foreground = '#1c211e'
+background = '#da978b'
+
+[colors.footer_bar]
+foreground = '#d6dccb'
+background = '#3d433d'
+
+[colors.hints.start]
+foreground = '#1c211e'
+background = '#dec88c'
+
+[colors.hints.end]
+foreground = '#1c211e'
+background = '#9bb5c4'

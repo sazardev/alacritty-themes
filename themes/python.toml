@@ -1,0 +1,58 @@
+# Python
+
+[colors.primary]
+background = '#11161d'
+foreground = '#e6edf3'
+
+[colors.normal]
+black   = '#2b3037'
+red     = '#e5646a'
+green   = '#6fcf8a'
+yellow  = '#ffd43b'
+blue    = '#5b9bd5'
+magenta = '#b08ee0'
+cyan    = '#4fc3d9'
+white   = '#cfd8e3'
+
+[colors.bright]
+black   = '#666c73'
+red     = '#eb868b'
+green   = '#8fdaa4'
+yellow  = '#ffdd66'
+blue    = '#7fb1de'
+magenta = '#c1a7e7'
+cyan    = '#76d0e1'
+white   = '#eceff4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#11161d'
+cursor = '#ffd43b'
+
+[colors.vi_mode_cursor]
+text = '#11161d'
+cursor = '#76d0e1'
+
+[colors.selection]
+text = '#e6edf3'
+background = '#6b5e28'
+
+[colors.search.matches]
+foreground = '#11161d'
+background = '#ffdd66'
+
+[colors.search.focused_match]
+foreground = '#11161d'
+background = '#eb868b'
+
+[colors.footer_bar]
+foreground = '#e6edf3'
+background = '#373d44'
+
+[colors.hints.start]
+foreground = '#11161d'
+background = '#ffdd66'
+
+[colors.hints.end]
+foreground = '#11161d'
+background = '#7fb1de'

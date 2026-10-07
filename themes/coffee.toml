@@ -1,0 +1,58 @@
+# Coffee
+
+[colors.primary]
+background = '#1f1a16'
+foreground = '#e6d5b8'
+
+[colors.normal]
+black   = '#373029'
+red     = '#d9644a'
+green   = '#a3a860'
+yellow  = '#e0b050'
+blue    = '#7fa5a8'
+magenta = '#c08a9c'
+cyan    = '#86b89a'
+white   = '#cdbfa3'
+
+[colors.bright]
+black   = '#776c5d'
+red     = '#e18672'
+green   = '#b7bb83'
+yellow  = '#e7c176'
+blue    = '#9bb9bb'
+magenta = '#cea4b2'
+cyan    = '#a1c8b0'
+white   = '#ebe5da'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1f1a16'
+cursor = '#e0b050'
+
+[colors.vi_mode_cursor]
+text = '#1f1a16'
+cursor = '#a1c8b0'
+
+[colors.selection]
+text = '#e6d5b8'
+background = '#68532c'
+
+[colors.search.matches]
+foreground = '#1f1a16'
+background = '#e7c176'
+
+[colors.search.focused_match]
+foreground = '#1f1a16'
+background = '#e18672'
+
+[colors.footer_bar]
+foreground = '#e6d5b8'
+background = '#433c33'
+
+[colors.hints.start]
+foreground = '#1f1a16'
+background = '#e7c176'
+
+[colors.hints.end]
+foreground = '#1f1a16'
+background = '#9bb9bb'

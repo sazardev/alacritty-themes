@@ -1,0 +1,58 @@
+# Miami Vice
+
+[colors.primary]
+background = '#0c1b2a'
+foreground = '#f4f1ff'
+
+[colors.normal]
+black   = '#283544'
+red     = '#ff5a7a'
+green   = '#3ff5c0'
+yellow  = '#ffe36e'
+blue    = '#4aa8ff'
+magenta = '#ff6ad5'
+cyan    = '#2fe6e6'
+white   = '#d6e4f0'
+
+[colors.bright]
+black   = '#69717f'
+red     = '#ff7e97'
+green   = '#69f7ce'
+yellow  = '#ffe98e'
+blue    = '#72bbff'
+magenta = '#ff8bde'
+cyan    = '#5decec'
+white   = '#eff4f9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0c1b2a'
+cursor = '#3ff5c0'
+
+[colors.vi_mode_cursor]
+text = '#0c1b2a'
+cursor = '#5decec'
+
+[colors.selection]
+text = '#f4f1ff'
+background = '#1f6e63'
+
+[colors.search.matches]
+foreground = '#0c1b2a'
+background = '#ffe98e'
+
+[colors.search.focused_match]
+foreground = '#0c1b2a'
+background = '#ff7e97'
+
+[colors.footer_bar]
+foreground = '#f4f1ff'
+background = '#364250'
+
+[colors.hints.start]
+foreground = '#0c1b2a'
+background = '#ffe98e'
+
+[colors.hints.end]
+foreground = '#0c1b2a'
+background = '#72bbff'

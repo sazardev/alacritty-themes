@@ -1,0 +1,58 @@
+# Kotlin
+
+[colors.primary]
+background = '#14101c'
+foreground = '#ece4f4'
+
+[colors.normal]
+black   = '#2e2936'
+red     = '#ee4a6a'
+green   = '#6fd09a'
+yellow  = '#f5b04a'
+blue    = '#6a8cf5'
+magenta = '#a97aff'
+cyan    = '#4fd0d8'
+white   = '#d4cce4'
+
+[colors.bright]
+black   = '#6a6572'
+red     = '#f2728b'
+green   = '#8fdab0'
+yellow  = '#f7c172'
+blue    = '#8ba5f7'
+magenta = '#bc97ff'
+cyan    = '#76dae1'
+white   = '#eeebf4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#14101c'
+cursor = '#a97aff'
+
+[colors.vi_mode_cursor]
+text = '#14101c'
+cursor = '#76dae1'
+
+[colors.selection]
+text = '#ece4f4'
+background = '#4d3872'
+
+[colors.search.matches]
+foreground = '#14101c'
+background = '#f7c172'
+
+[colors.search.focused_match]
+foreground = '#14101c'
+background = '#f2728b'
+
+[colors.footer_bar]
+foreground = '#ece4f4'
+background = '#3b3643'
+
+[colors.hints.start]
+foreground = '#14101c'
+background = '#f7c172'
+
+[colors.hints.end]
+foreground = '#14101c'
+background = '#8ba5f7'

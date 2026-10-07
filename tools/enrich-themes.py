@@ -15,6 +15,23 @@ ACCENT = {
   "hextech": "#c8aa6e", "overwatch": "#f99e1a", "aperture": "#ff9a00",
   "lemon_lime": "#f2e03a", "forest_gold": "#d9a93a", "matcha": "#9ccc65",
   "radioactive": "#a8ff00", "jungle": "#3ecf6e", "swamp": "#c8a830", "amber_crt": "#ffb000",
+  "gruvbox_hard_dark": "#fabd2f", "gruvbox_soft": "#fabd2f", "gruvbox_plum": "#cf86a8",
+  "coffee": "#e0b050", "autumn": "#e8a23a", "desert_dusk": "#e0b46a", "terracotta": "#e2674e",
+  "sunset_ember": "#ffb347", "nicotine": "#cfa94e", "sage": "#94b27e",
+  "outrun": "#ff2975", "retrowave_sunset": "#ff5ac8", "miami_vice": "#3ff5c0",
+  "vaporwave": "#d68cff", "laserwave": "#eb64b9", "retro_70s": "#e5ad2d",
+  "space_age": "#ffc857", "atomic_age": "#5fcfc4", "blade_runner": "#ffb02e",
+  "arcade_cabinet": "#ffe033", "candy": "#ff8cf0", "tropical": "#ffd23f", "aurora": "#6bffb0",
+  "jewel": "#b05fe0", "festival": "#ffc933", "ocean_reef": "#38e0f0", "spring_bloom": "#e69ae8",
+  "python": "#ffd43b", "rust": "#e5533d", "golang": "#00add8", "javascript": "#f7df1e",
+  "typescript": "#5a9ae8", "ruby": "#ee4a4a", "php": "#7a86e0", "java": "#f2a33a",
+  "kotlin": "#a97aff", "swift": "#f0503a", "csharp": "#c070d8", "elixir": "#b070f0",
+  "haskell": "#a06ad8", "lua": "#5a78e8", "zig": "#f7a41d", "nodejs": "#68c657",
+  "dart": "#13b9fd", "julia": "#b072d0",
+  "espresso": "#e0a850", "cappuccino": "#e8b866", "americano": "#cba35a", "cortado": "#e0b070",
+  "cafe_moka": "#c8789c", "caramel_macchiato": "#f0b840", "cold_brew": "#5cb8b0",
+  "cafe_de_olla": "#e0a030", "flat_white": "#ddb86a", "irish_coffee": "#7fb06a",
+  "turkish_coffee": "#e6a030", "affogato": "#ecc468", "cafe_bombon": "#f2c050",
 }
 
 def rgb(h): h = h.lstrip("#"); return [int(h[i:i+2], 16) for i in (0, 2, 4)]

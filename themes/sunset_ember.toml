@@ -1,0 +1,58 @@
+# Sunset Ember
+
+[colors.primary]
+background = '#1a1114'
+foreground = '#f2d8c8'
+
+[colors.normal]
+black   = '#34292a'
+red     = '#ff5a4d'
+green   = '#b9c25a'
+yellow  = '#ffb347'
+blue    = '#7aa2d6'
+magenta = '#e56b9f'
+cyan    = '#5fc9b5'
+white   = '#d8c0b4'
+
+[colors.bright]
+black   = '#756560'
+red     = '#ff7e74'
+green   = '#c8cf7e'
+yellow  = '#ffc46f'
+blue    = '#97b6df'
+magenta = '#eb8cb4'
+cyan    = '#82d5c5'
+white   = '#efe6e1'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a1114'
+cursor = '#ffb347'
+
+[colors.vi_mode_cursor]
+text = '#1a1114'
+cursor = '#82d5c5'
+
+[colors.selection]
+text = '#f2d8c8'
+background = '#714f27'
+
+[colors.search.matches]
+foreground = '#1a1114'
+background = '#ffc46f'
+
+[colors.search.focused_match]
+foreground = '#1a1114'
+background = '#ff7e74'
+
+[colors.footer_bar]
+foreground = '#f2d8c8'
+background = '#413534'
+
+[colors.hints.start]
+foreground = '#1a1114'
+background = '#ffc46f'
+
+[colors.hints.end]
+foreground = '#1a1114'
+background = '#97b6df'

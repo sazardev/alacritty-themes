@@ -1,0 +1,58 @@
+# Node.js
+
+[colors.primary]
+background = '#0e150f'
+foreground = '#e0efe0'
+
+[colors.normal]
+black   = '#272f28'
+red     = '#f0645a'
+green   = '#68c657'
+yellow  = '#e8cd5a'
+blue    = '#5aa0e0'
+magenta = '#c07ad8'
+cyan    = '#4cc8b8'
+white   = '#cadcca'
+
+[colors.bright]
+black   = '#626c63'
+red     = '#f3867e'
+green   = '#89d37c'
+yellow  = '#edd87e'
+blue    = '#7eb5e7'
+magenta = '#ce97e1'
+cyan    = '#73d4c8'
+white   = '#eaf1ea'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0e150f'
+cursor = '#68c657'
+
+[colors.vi_mode_cursor]
+text = '#0e150f'
+cursor = '#73d4c8'
+
+[colors.selection]
+text = '#e0efe0'
+background = '#30582a'
+
+[colors.search.matches]
+foreground = '#0e150f'
+background = '#edd87e'
+
+[colors.search.focused_match]
+foreground = '#0e150f'
+background = '#f3867e'
+
+[colors.footer_bar]
+foreground = '#e0efe0'
+background = '#343c35'
+
+[colors.hints.start]
+foreground = '#0e150f'
+background = '#edd87e'
+
+[colors.hints.end]
+foreground = '#0e150f'
+background = '#7eb5e7'

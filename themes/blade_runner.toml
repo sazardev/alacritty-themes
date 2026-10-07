@@ -1,0 +1,58 @@
+# Blade Runner
+
+[colors.primary]
+background = '#0a0f18'
+foreground = '#d0d8e0'
+
+[colors.normal]
+black   = '#222730'
+red     = '#ff4a3d'
+green   = '#66d9a8'
+yellow  = '#ffb02e'
+blue    = '#3a9ad9'
+magenta = '#e0509a'
+cyan    = '#2fd4d0'
+white   = '#b8c4cc'
+
+[colors.bright]
+black   = '#616770'
+red     = '#ff7268'
+green   = '#88e1bb'
+yellow  = '#ffc15c'
+blue    = '#65b0e1'
+magenta = '#e776b0'
+cyan    = '#5dddda'
+white   = '#e3e7eb'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0a0f18'
+cursor = '#ffb02e'
+
+[colors.vi_mode_cursor]
+text = '#0a0f18'
+cursor = '#5dddda'
+
+[colors.selection]
+text = '#d0d8e0'
+background = '#674c20'
+
+[colors.search.matches]
+foreground = '#0a0f18'
+background = '#ffc15c'
+
+[colors.search.focused_match]
+foreground = '#0a0f18'
+background = '#ff7268'
+
+[colors.footer_bar]
+foreground = '#d0d8e0'
+background = '#2e333c'
+
+[colors.hints.start]
+foreground = '#0a0f18'
+background = '#ffc15c'
+
+[colors.hints.end]
+foreground = '#0a0f18'
+background = '#65b0e1'

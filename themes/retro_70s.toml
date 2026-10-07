@@ -1,0 +1,58 @@
+# Retro 70s
+
+[colors.primary]
+background = '#1f1812'
+foreground = '#f0dfc0'
+
+[colors.normal]
+black   = '#383027'
+red     = '#db5337'
+green   = '#8fa03a'
+yellow  = '#e5ad2d'
+blue    = '#3d8fa8'
+magenta = '#c4608a'
+cyan    = '#4fb3a0'
+white   = '#d9c8a8'
+
+[colors.bright]
+black   = '#776c5b'
+red     = '#e37963'
+green   = '#a8b565'
+yellow  = '#ebbf5b'
+blue    = '#68a8bb'
+magenta = '#d183a4'
+cyan    = '#76c4b5'
+white   = '#f0e9dc'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1f1812'
+cursor = '#e5ad2d'
+
+[colors.vi_mode_cursor]
+text = '#1f1812'
+cursor = '#76c4b5'
+
+[colors.selection]
+text = '#f0dfc0'
+background = '#6a511c'
+
+[colors.search.matches]
+foreground = '#1f1812'
+background = '#ebbf5b'
+
+[colors.search.focused_match]
+foreground = '#1f1812'
+background = '#e37963'
+
+[colors.footer_bar]
+foreground = '#f0dfc0'
+background = '#453c31'
+
+[colors.hints.start]
+foreground = '#1f1812'
+background = '#ebbf5b'
+
+[colors.hints.end]
+foreground = '#1f1812'
+background = '#68a8bb'

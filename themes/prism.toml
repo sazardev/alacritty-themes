@@ -1,0 +1,58 @@
+# Prism
+
+[colors.primary]
+background = '#101018'
+foreground = '#eeeef6'
+
+[colors.normal]
+black   = '#2b2b33'
+red     = '#ff5555'
+green   = '#55e07a'
+yellow  = '#f5d442'
+blue    = '#5588ff'
+magenta = '#cc66ff'
+cyan    = '#44ddee'
+white   = '#d8d8e4'
+
+[colors.bright]
+black   = '#696971'
+red     = '#ff7a7a'
+green   = '#7ae797'
+yellow  = '#f7dd6c'
+blue    = '#7aa2ff'
+magenta = '#d788ff'
+cyan    = '#6de4f2'
+white   = '#efeff4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#101018'
+cursor = '#eeeef6'
+
+[colors.vi_mode_cursor]
+text = '#101018'
+cursor = '#6de4f2'
+
+[colors.selection]
+text = '#eeeef6'
+background = '#384770'
+
+[colors.search.matches]
+foreground = '#101018'
+background = '#f7dd6c'
+
+[colors.search.focused_match]
+foreground = '#101018'
+background = '#ff7a7a'
+
+[colors.footer_bar]
+foreground = '#eeeef6'
+background = '#383840'
+
+[colors.hints.start]
+foreground = '#101018'
+background = '#f7dd6c'
+
+[colors.hints.end]
+foreground = '#101018'
+background = '#7aa2ff'

@@ -1,0 +1,58 @@
+# Autumn
+
+[colors.primary]
+background = '#1c1512'
+foreground = '#e8d3b5'
+
+[colors.normal]
+black   = '#342c26'
+red     = '#d9553b'
+green   = '#9aa84a'
+yellow  = '#e8a23a'
+blue    = '#6a94a8'
+magenta = '#b8708a'
+cyan    = '#6fae94'
+white   = '#cbb99a'
+
+[colors.bright]
+black   = '#76695a'
+red     = '#e17a66'
+green   = '#b0bb72'
+yellow  = '#edb665'
+blue    = '#8bacbb'
+magenta = '#c88fa4'
+cyan    = '#8fc0ac'
+white   = '#eae3d7'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1c1512'
+cursor = '#e8a23a'
+
+[colors.vi_mode_cursor]
+text = '#1c1512'
+cursor = '#8fc0ac'
+
+[colors.selection]
+text = '#e8d3b5'
+background = '#6a4b21'
+
+[colors.search.matches]
+foreground = '#1c1512'
+background = '#edb665'
+
+[colors.search.focused_match]
+foreground = '#1c1512'
+background = '#e17a66'
+
+[colors.footer_bar]
+foreground = '#e8d3b5'
+background = '#41372f'
+
+[colors.hints.start]
+foreground = '#1c1512'
+background = '#edb665'
+
+[colors.hints.end]
+foreground = '#1c1512'
+background = '#8bacbb'

@@ -1,0 +1,58 @@
+# JavaScript
+
+[colors.primary]
+background = '#121212'
+foreground = '#f0eee0'
+
+[colors.normal]
+black   = '#2d2c2b'
+red     = '#ff6159'
+green   = '#7ed957'
+yellow  = '#f7df1e'
+blue    = '#5aa6f5'
+magenta = '#d57ae0'
+cyan    = '#4fd6d0'
+white   = '#d8d4c0'
+
+[colors.bright]
+black   = '#6b6a64'
+red     = '#ff847e'
+green   = '#9ae17c'
+yellow  = '#f9e650'
+blue    = '#7ebaf7'
+magenta = '#de97e7'
+cyan    = '#76dfda'
+white   = '#efeee6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#121212'
+cursor = '#f7df1e'
+
+[colors.vi_mode_cursor]
+text = '#121212'
+cursor = '#76dfda'
+
+[colors.selection]
+text = '#f0eee0'
+background = '#696017'
+
+[colors.search.matches]
+foreground = '#121212'
+background = '#f9e650'
+
+[colors.search.focused_match]
+foreground = '#121212'
+background = '#ff847e'
+
+[colors.footer_bar]
+foreground = '#f0eee0'
+background = '#3a3a37'
+
+[colors.hints.start]
+foreground = '#121212'
+background = '#f9e650'
+
+[colors.hints.end]
+foreground = '#121212'
+background = '#7ebaf7'

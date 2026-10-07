@@ -1,0 +1,58 @@
+# Candy
+
+[colors.primary]
+background = '#1c1426'
+foreground = '#fdf0ff'
+
+[colors.normal]
+black   = '#372e40'
+red     = '#ff6b8b'
+green   = '#7dffb2'
+yellow  = '#ffe66d'
+blue    = '#6bb5ff'
+magenta = '#ff8cf0'
+cyan    = '#6bf5ff'
+white   = '#f0dcf5'
+
+[colors.bright]
+black   = '#726878'
+red     = '#ff8ca5'
+green   = '#9affc3'
+yellow  = '#ffec8d'
+blue    = '#8cc5ff'
+magenta = '#ffa5f3'
+cyan    = '#8cf7ff'
+white   = '#f9f1fb'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1c1426'
+cursor = '#ff8cf0'
+
+[colors.vi_mode_cursor]
+text = '#1c1426'
+cursor = '#8cf7ff'
+
+[colors.selection]
+text = '#fdf0ff'
+background = '#724273'
+
+[colors.search.matches]
+foreground = '#1c1426'
+background = '#ffec8d'
+
+[colors.search.focused_match]
+foreground = '#1c1426'
+background = '#ff8ca5'
+
+[colors.footer_bar]
+foreground = '#fdf0ff'
+background = '#443c4d'
+
+[colors.hints.start]
+foreground = '#1c1426'
+background = '#ffec8d'
+
+[colors.hints.end]
+foreground = '#1c1426'
+background = '#8cc5ff'

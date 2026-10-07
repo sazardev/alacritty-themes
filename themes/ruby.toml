@@ -1,0 +1,58 @@
+# Ruby
+
+[colors.primary]
+background = '#1c0f12'
+foreground = '#f0dcdc'
+
+[colors.normal]
+black   = '#35282a'
+red     = '#ee4a4a'
+green   = '#8fc46f'
+yellow  = '#e8b45a'
+blue    = '#6a95d0'
+magenta = '#e0609a'
+cyan    = '#5cbfb0'
+white   = '#d9c4c4'
+
+[colors.bright]
+black   = '#756567'
+red     = '#f27272'
+green   = '#a8d18f'
+yellow  = '#edc47e'
+blue    = '#8bacda'
+magenta = '#e783b0'
+cyan    = '#80cdc1'
+white   = '#f0e7e7'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1c0f12'
+cursor = '#ee4a4a'
+
+[colors.vi_mode_cursor]
+text = '#1c0f12'
+cursor = '#80cdc1'
+
+[colors.selection]
+text = '#f0dcdc'
+background = '#6c2527'
+
+[colors.search.matches]
+foreground = '#1c0f12'
+background = '#edc47e'
+
+[colors.search.focused_match]
+foreground = '#1c0f12'
+background = '#f27272'
+
+[colors.footer_bar]
+foreground = '#f0dcdc'
+background = '#423436'
+
+[colors.hints.start]
+foreground = '#1c0f12'
+background = '#edc47e'
+
+[colors.hints.end]
+foreground = '#1c0f12'
+background = '#8bacda'

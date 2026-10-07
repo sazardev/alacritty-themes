@@ -1,0 +1,58 @@
+# Elixir
+
+[colors.primary]
+background = '#150f1f'
+foreground = '#eadff5'
+
+[colors.normal]
+black   = '#2f2839'
+red     = '#f0607a'
+green   = '#7ad4a0'
+yellow  = '#f0c878'
+blue    = '#7a8cf0'
+magenta = '#b070f0'
+cyan    = '#5acce0'
+white   = '#d4c8e8'
+
+[colors.bright]
+black   = '#6e6679'
+red     = '#f38397'
+green   = '#97ddb5'
+yellow  = '#f3d496'
+blue    = '#97a5f3'
+magenta = '#c18ff3'
+cyan    = '#7ed7e7'
+white   = '#eee9f6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#150f1f'
+cursor = '#b070f0'
+
+[colors.vi_mode_cursor]
+text = '#150f1f'
+cursor = '#7ed7e7'
+
+[colors.selection]
+text = '#eadff5'
+background = '#50346e'
+
+[colors.search.matches]
+foreground = '#150f1f'
+background = '#f3d496'
+
+[colors.search.focused_match]
+foreground = '#150f1f'
+background = '#f38397'
+
+[colors.footer_bar]
+foreground = '#eadff5'
+background = '#3b3446'
+
+[colors.hints.start]
+foreground = '#150f1f'
+background = '#f3d496'
+
+[colors.hints.end]
+foreground = '#150f1f'
+background = '#97a5f3'

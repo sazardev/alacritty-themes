@@ -1,0 +1,58 @@
+# Gruvbox Plum
+
+[colors.primary]
+background = '#2a2229'
+foreground = '#e8d7c6'
+
+[colors.normal]
+black   = '#41383c'
+red     = '#e0605a'
+green   = '#a6b05c'
+yellow  = '#e3b04b'
+blue    = '#78a0b5'
+magenta = '#cf86a8'
+cyan    = '#85bfa5'
+white   = '#cdbfb0'
+
+[colors.bright]
+black   = '#7e726e'
+red     = '#e7837e'
+green   = '#bac180'
+yellow  = '#e9c173'
+blue    = '#96b5c5'
+magenta = '#daa1bb'
+cyan    = '#a0cdb9'
+white   = '#ebe5df'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#2a2229'
+cursor = '#cf86a8'
+
+[colors.vi_mode_cursor]
+text = '#2a2229'
+cursor = '#a0cdb9'
+
+[colors.selection]
+text = '#e8d7c6'
+background = '#694859'
+
+[colors.search.matches]
+foreground = '#2a2229'
+background = '#e9c173'
+
+[colors.search.focused_match]
+foreground = '#2a2229'
+background = '#e7837e'
+
+[colors.footer_bar]
+foreground = '#e8d7c6'
+background = '#4c4345'
+
+[colors.hints.start]
+foreground = '#2a2229'
+background = '#e9c173'
+
+[colors.hints.end]
+foreground = '#2a2229'
+background = '#96b5c5'

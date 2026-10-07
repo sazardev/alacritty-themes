@@ -1,0 +1,58 @@
+# Arcade Cabinet
+
+[colors.primary]
+background = '#0a0a1a'
+foreground = '#f0f0ff'
+
+[colors.normal]
+black   = '#262635'
+red     = '#ff3355'
+green   = '#33ff77'
+yellow  = '#ffe033'
+blue    = '#3377ff'
+magenta = '#ff33cc'
+cyan    = '#33eeff'
+white   = '#e0e0ee'
+
+[colors.bright]
+black   = '#666676'
+red     = '#ff607a'
+green   = '#60ff95'
+yellow  = '#ffe760'
+blue    = '#6095ff'
+magenta = '#ff60d7'
+cyan    = '#60f2ff'
+white   = '#f3f3f8'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0a0a1a'
+cursor = '#ffe033'
+
+[colors.vi_mode_cursor]
+text = '#0a0a1a'
+cursor = '#60f2ff'
+
+[colors.selection]
+text = '#f0f0ff'
+background = '#675b24'
+
+[colors.search.matches]
+foreground = '#0a0a1a'
+background = '#ffe760'
+
+[colors.search.focused_match]
+foreground = '#0a0a1a'
+background = '#ff607a'
+
+[colors.footer_bar]
+foreground = '#f0f0ff'
+background = '#333343'
+
+[colors.hints.start]
+foreground = '#0a0a1a'
+background = '#ffe760'
+
+[colors.hints.end]
+foreground = '#0a0a1a'
+background = '#6095ff'

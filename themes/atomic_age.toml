@@ -1,0 +1,58 @@
+# Atomic Age
+
+[colors.primary]
+background = '#1b2226'
+foreground = '#efe6d2'
+
+[colors.normal]
+black   = '#343a3b'
+red     = '#f26b5b'
+green   = '#7cc4a0'
+yellow  = '#f2c14e'
+blue    = '#5aa5c9'
+magenta = '#d98aa8'
+cyan    = '#5fcfc4'
+white   = '#d8ceb8'
+
+[colors.bright]
+black   = '#74746e'
+red     = '#f58c7f'
+green   = '#99d1b5'
+yellow  = '#f5cf75'
+blue    = '#7eb9d5'
+magenta = '#e1a4bb'
+cyan    = '#82dad1'
+white   = '#efebe3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1b2226'
+cursor = '#5fcfc4'
+
+[colors.vi_mode_cursor]
+text = '#1b2226'
+cursor = '#82dad1'
+
+[colors.selection]
+text = '#efe6d2'
+background = '#356462'
+
+[colors.search.matches]
+foreground = '#1b2226'
+background = '#f5cf75'
+
+[colors.search.focused_match]
+foreground = '#1b2226'
+background = '#f58c7f'
+
+[colors.footer_bar]
+foreground = '#efe6d2'
+background = '#414545'
+
+[colors.hints.start]
+foreground = '#1b2226'
+background = '#f5cf75'
+
+[colors.hints.end]
+foreground = '#1b2226'
+background = '#7eb9d5'

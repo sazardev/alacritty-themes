@@ -1,0 +1,58 @@
+# Café de Olla
+
+[colors.primary]
+background = '#1e130e'
+foreground = '#ecd5b4'
+
+[colors.normal]
+black   = '#372a22'
+red     = '#d25a3a'
+green   = '#8ca350'
+yellow  = '#e0a030'
+blue    = '#6a94a0'
+magenta = '#c07080'
+cyan    = '#62a89a'
+white   = '#cdb898'
+
+[colors.bright]
+black   = '#796857'
+red     = '#dc7e65'
+green   = '#a5b776'
+yellow  = '#e7b55e'
+blue    = '#8bacb5'
+magenta = '#ce8f9c'
+cyan    = '#85bbb0'
+white   = '#ebe3d6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1e130e'
+cursor = '#e0a030'
+
+[colors.vi_mode_cursor]
+text = '#1e130e'
+cursor = '#85bbb0'
+
+[colors.selection]
+text = '#ecd5b4'
+background = '#68491b'
+
+[colors.search.matches]
+foreground = '#1e130e'
+background = '#e7b55e'
+
+[colors.search.focused_match]
+foreground = '#1e130e'
+background = '#dc7e65'
+
+[colors.footer_bar]
+foreground = '#ecd5b4'
+background = '#43362c'
+
+[colors.hints.start]
+foreground = '#1e130e'
+background = '#e7b55e'
+
+[colors.hints.end]
+foreground = '#1e130e'
+background = '#8bacb5'

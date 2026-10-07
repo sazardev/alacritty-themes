@@ -1,0 +1,58 @@
+# Spring Bloom
+
+[colors.primary]
+background = '#1d1822'
+foreground = '#f3e8f0'
+
+[colors.normal]
+black   = '#37313b'
+red     = '#ff8a9a'
+green   = '#a8e68a'
+yellow  = '#ffe08a'
+blue    = '#8ab8ff'
+magenta = '#e69ae8'
+cyan    = '#8ae6e0'
+white   = '#e0d4e0'
+
+[colors.bright]
+black   = '#736b74'
+red     = '#ffa4b0'
+green   = '#bbeca4'
+yellow  = '#ffe7a4'
+blue    = '#a4c8ff'
+magenta = '#ecb0ed'
+cyan    = '#a4ece7'
+white   = '#f3eef3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1d1822'
+cursor = '#e69ae8'
+
+[colors.vi_mode_cursor]
+text = '#1d1822'
+cursor = '#a4ece7'
+
+[colors.selection]
+text = '#f3e8f0'
+background = '#69496d'
+
+[colors.search.matches]
+foreground = '#1d1822'
+background = '#ffe7a4'
+
+[colors.search.focused_match]
+foreground = '#1d1822'
+background = '#ffa4b0'
+
+[colors.footer_bar]
+foreground = '#f3e8f0'
+background = '#443d47'
+
+[colors.hints.start]
+foreground = '#1d1822'
+background = '#ffe7a4'
+
+[colors.hints.end]
+foreground = '#1d1822'
+background = '#a4c8ff'

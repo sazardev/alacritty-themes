@@ -1,0 +1,58 @@
+# Turkish Coffee
+
+[colors.primary]
+background = '#1b1210'
+foreground = '#e8d0b8'
+
+[colors.normal]
+black   = '#342924'
+red     = '#d4553e'
+green   = '#98a850'
+yellow  = '#e6a030'
+blue    = '#5e8aa8'
+magenta = '#b8607c'
+cyan    = '#58a898'
+white   = '#c9b09a'
+
+[colors.bright]
+black   = '#75665a'
+red     = '#dd7a68'
+green   = '#afbb76'
+yellow  = '#ecb55e'
+blue    = '#81a4bb'
+magenta = '#c88399'
+cyan    = '#7dbbaf'
+white   = '#e9dfd7'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1b1210'
+cursor = '#e6a030'
+
+[colors.vi_mode_cursor]
+text = '#1b1210'
+cursor = '#7dbbaf'
+
+[colors.selection]
+text = '#e8d0b8'
+background = '#68481c'
+
+[colors.search.matches]
+foreground = '#1b1210'
+background = '#ecb55e'
+
+[colors.search.focused_match]
+foreground = '#1b1210'
+background = '#dd7a68'
+
+[colors.footer_bar]
+foreground = '#e8d0b8'
+background = '#40342e'
+
+[colors.hints.start]
+foreground = '#1b1210'
+background = '#ecb55e'
+
+[colors.hints.end]
+foreground = '#1b1210'
+background = '#81a4bb'

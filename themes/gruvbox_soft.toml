@@ -1,0 +1,58 @@
+# Gruvbox Soft
+
+[colors.primary]
+background = '#32302f'
+foreground = '#ebdbb2'
+
+[colors.normal]
+black   = '#48453f'
+red     = '#e9745e'
+green   = '#aaa83a'
+yellow  = '#e3aa3a'
+blue    = '#78a5ad'
+magenta = '#cf88a0'
+cyan    = '#93c482'
+white   = '#d5c4a1'
+
+[colors.bright]
+black   = '#877f6b'
+red     = '#ee9381'
+green   = '#bdbb65'
+yellow  = '#e9bd65'
+blue    = '#96b9bf'
+magenta = '#daa2b5'
+cyan    = '#abd19e'
+white   = '#eee7d9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#32302f'
+cursor = '#fabd2f'
+
+[colors.vi_mode_cursor]
+text = '#32302f'
+cursor = '#abd19e'
+
+[colors.selection]
+text = '#ebdbb2'
+background = '#725d2f'
+
+[colors.search.matches]
+foreground = '#32302f'
+background = '#e9bd65'
+
+[colors.search.focused_match]
+foreground = '#32302f'
+background = '#ee9381'
+
+[colors.footer_bar]
+foreground = '#ebdbb2'
+background = '#534f47'
+
+[colors.hints.start]
+foreground = '#32302f'
+background = '#e9bd65'
+
+[colors.hints.end]
+foreground = '#32302f'
+background = '#96b9bf'

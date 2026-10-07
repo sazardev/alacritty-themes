@@ -1,0 +1,58 @@
+# PHP
+
+[colors.primary]
+background = '#15152b'
+foreground = '#e4e4f4'
+
+[colors.normal]
+black   = '#2e2e43'
+red     = '#f06a80'
+green   = '#78d29a'
+yellow  = '#eac870'
+blue    = '#7a86e0'
+magenta = '#b88ae0'
+cyan    = '#5cc8dc'
+white   = '#cdcde4'
+
+[colors.bright]
+black   = '#6c6c7f'
+red     = '#f38b9c'
+green   = '#96dcb0'
+yellow  = '#efd48f'
+blue    = '#97a1e7'
+magenta = '#c8a4e7'
+cyan    = '#80d4e4'
+white   = '#ebebf4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#15152b'
+cursor = '#7a86e0'
+
+[colors.vi_mode_cursor]
+text = '#15152b'
+cursor = '#80d4e4'
+
+[colors.selection]
+text = '#e4e4f4'
+background = '#3b4070'
+
+[colors.search.matches]
+foreground = '#15152b'
+background = '#efd48f'
+
+[colors.search.focused_match]
+foreground = '#15152b'
+background = '#f38b9c'
+
+[colors.footer_bar]
+foreground = '#e4e4f4'
+background = '#3a3a4f'
+
+[colors.hints.start]
+foreground = '#15152b'
+background = '#efd48f'
+
+[colors.hints.end]
+foreground = '#15152b'
+background = '#97a1e7'

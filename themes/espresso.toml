@@ -1,0 +1,58 @@
+# Espresso
+
+[colors.primary]
+background = '#140d0a'
+foreground = '#e8d5c0'
+
+[colors.normal]
+black   = '#2d2520'
+red     = '#d9634a'
+green   = '#8fa05a'
+yellow  = '#e0a850'
+blue    = '#6e90a0'
+magenta = '#b0728a'
+cyan    = '#6fa890'
+white   = '#c9b8a2'
+
+[colors.bright]
+black   = '#71655a'
+red     = '#e18572'
+green   = '#a8b57e'
+yellow  = '#e7bb76'
+blue    = '#8ea8b5'
+magenta = '#c191a4'
+cyan    = '#8fbba8'
+white   = '#e9e3da'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#140d0a'
+cursor = '#e0a850'
+
+[colors.vi_mode_cursor]
+text = '#140d0a'
+cursor = '#8fbba8'
+
+[colors.selection]
+text = '#e8d5c0'
+background = '#624825'
+
+[colors.search.matches]
+foreground = '#140d0a'
+background = '#e7bb76'
+
+[colors.search.focused_match]
+foreground = '#140d0a'
+background = '#e18572'
+
+[colors.footer_bar]
+foreground = '#e8d5c0'
+background = '#3a312b'
+
+[colors.hints.start]
+foreground = '#140d0a'
+background = '#e7bb76'
+
+[colors.hints.end]
+foreground = '#140d0a'
+background = '#8ea8b5'

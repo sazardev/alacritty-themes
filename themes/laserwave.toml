@@ -1,0 +1,58 @@
+# Laserwave
+
+[colors.primary]
+background = '#27212e'
+foreground = '#e0e0e0'
+
+[colors.normal]
+black   = '#3d3843'
+red     = '#eb64b9'
+green   = '#74dfc4'
+yellow  = '#ffe261'
+blue    = '#40b4c4'
+magenta = '#b381c5'
+cyan    = '#6bd5e8'
+white   = '#e0d8e8'
+
+[colors.bright]
+black   = '#78757c'
+red     = '#ef86c8'
+green   = '#93e6d1'
+yellow  = '#ffe884'
+blue    = '#6ac4d1'
+magenta = '#c49dd2'
+cyan    = '#8cdeed'
+white   = '#f3eff6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#27212e'
+cursor = '#eb64b9'
+
+[colors.vi_mode_cursor]
+text = '#27212e'
+cursor = '#8cdeed'
+
+[colors.selection]
+text = '#e0e0e0'
+background = '#713a63'
+
+[colors.search.matches]
+foreground = '#27212e'
+background = '#ffe884'
+
+[colors.search.focused_match]
+foreground = '#27212e'
+background = '#ef86c8'
+
+[colors.footer_bar]
+foreground = '#e0e0e0'
+background = '#48434e'
+
+[colors.hints.start]
+foreground = '#27212e'
+background = '#ffe884'
+
+[colors.hints.end]
+foreground = '#27212e'
+background = '#6ac4d1'

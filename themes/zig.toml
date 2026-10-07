@@ -1,0 +1,58 @@
+# Zig
+
+[colors.primary]
+background = '#1a1408'
+foreground = '#f0e6d0'
+
+[colors.normal]
+black   = '#342d20'
+red     = '#ee5a3a'
+green   = '#98c860'
+yellow  = '#f7a41d'
+blue    = '#5a9ad0'
+magenta = '#d0709a'
+cyan    = '#58c0a8'
+white   = '#d8ccb4'
+
+[colors.bright]
+black   = '#706858'
+red     = '#f27e65'
+green   = '#afd483'
+yellow  = '#f9b84f'
+blue    = '#7eb0da'
+magenta = '#da8fb0'
+cyan    = '#7dcebb'
+white   = '#efebe1'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a1408'
+cursor = '#f7a41d'
+
+[colors.vi_mode_cursor]
+text = '#1a1408'
+cursor = '#7dcebb'
+
+[colors.selection]
+text = '#f0e6d0'
+background = '#6e4b10'
+
+[colors.search.matches]
+foreground = '#1a1408'
+background = '#f9b84f'
+
+[colors.search.focused_match]
+foreground = '#1a1408'
+background = '#f27e65'
+
+[colors.footer_bar]
+foreground = '#f0e6d0'
+background = '#413a2c'
+
+[colors.hints.start]
+foreground = '#1a1408'
+background = '#f9b84f'
+
+[colors.hints.end]
+foreground = '#1a1408'
+background = '#7eb0da'

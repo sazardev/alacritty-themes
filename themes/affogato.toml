@@ -1,0 +1,58 @@
+# Affogato
+
+[colors.primary]
+background = '#1c1814'
+foreground = '#f6eede'
+
+[colors.normal]
+black   = '#36322c'
+red     = '#e0705c'
+green   = '#a4b878'
+yellow  = '#ecc468'
+blue    = '#86a8c0'
+magenta = '#c490a8'
+cyan    = '#84c0aa'
+white   = '#e4d8c4'
+
+[colors.bright]
+black   = '#736e65'
+red     = '#e78f80'
+green   = '#b8c896'
+yellow  = '#f0d189'
+blue    = '#a1bbce'
+magenta = '#d1a8bb'
+cyan    = '#9fcebd'
+white   = '#f4efe7'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1c1814'
+cursor = '#ecc468'
+
+[colors.vi_mode_cursor]
+text = '#1c1814'
+cursor = '#9fcebd'
+
+[colors.selection]
+text = '#f6eede'
+background = '#6b5934'
+
+[colors.search.matches]
+foreground = '#1c1814'
+background = '#f0d189'
+
+[colors.search.focused_match]
+foreground = '#1c1814'
+background = '#e78f80'
+
+[colors.footer_bar]
+foreground = '#f6eede'
+background = '#433f38'
+
+[colors.hints.start]
+foreground = '#1c1814'
+background = '#f0d189'
+
+[colors.hints.end]
+foreground = '#1c1814'
+background = '#a1bbce'

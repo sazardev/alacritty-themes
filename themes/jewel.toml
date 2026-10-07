@@ -1,0 +1,58 @@
+# Jewel
+
+[colors.primary]
+background = '#120f1a'
+foreground = '#ece6f4'
+
+[colors.normal]
+black   = '#2c2934'
+red     = '#e0455f'
+green   = '#2fcf8a'
+yellow  = '#f0b43a'
+blue    = '#4a78e8'
+magenta = '#b05fe0'
+cyan    = '#2fc4cf'
+white   = '#cfc8dc'
+
+[colors.bright]
+black   = '#696571'
+red     = '#e76e82'
+green   = '#5ddaa4'
+yellow  = '#f3c465'
+blue    = '#7296ed'
+magenta = '#c182e7'
+cyan    = '#5dd1da'
+white   = '#ece9f1'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#120f1a'
+cursor = '#b05fe0'
+
+[colors.vi_mode_cursor]
+text = '#120f1a'
+cursor = '#5dd1da'
+
+[colors.selection]
+text = '#ece6f4'
+background = '#4e2d65'
+
+[colors.search.matches]
+foreground = '#120f1a'
+background = '#f3c465'
+
+[colors.search.focused_match]
+foreground = '#120f1a'
+background = '#e76e82'
+
+[colors.footer_bar]
+foreground = '#ece6f4'
+background = '#393641'
+
+[colors.hints.start]
+foreground = '#120f1a'
+background = '#f3c465'
+
+[colors.hints.end]
+foreground = '#120f1a'
+background = '#7296ed'

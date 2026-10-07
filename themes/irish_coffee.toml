@@ -1,0 +1,58 @@
+# Irish Coffee
+
+[colors.primary]
+background = '#18140f'
+foreground = '#e4dcc4'
+
+[colors.normal]
+black   = '#302c25'
+red     = '#d4604a'
+green   = '#7fb06a'
+yellow  = '#e0a840'
+blue    = '#6f94a8'
+magenta = '#b07a90'
+cyan    = '#62b0a0'
+white   = '#cabfa4'
+
+[colors.bright]
+black   = '#6e685b'
+red     = '#dd8372'
+green   = '#9bc18b'
+yellow  = '#e7bb6a'
+blue    = '#8facbb'
+magenta = '#c197a8'
+cyan    = '#85c1b5'
+white   = '#eae5db'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#18140f'
+cursor = '#7fb06a'
+
+[colors.vi_mode_cursor]
+text = '#18140f'
+cursor = '#85c1b5'
+
+[colors.selection]
+text = '#e4dcc4'
+background = '#3f4f32'
+
+[colors.search.matches]
+foreground = '#18140f'
+background = '#e7bb6a'
+
+[colors.search.focused_match]
+foreground = '#18140f'
+background = '#dd8372'
+
+[colors.footer_bar]
+foreground = '#e4dcc4'
+background = '#3d3830'
+
+[colors.hints.start]
+foreground = '#18140f'
+background = '#e7bb6a'
+
+[colors.hints.end]
+foreground = '#18140f'
+background = '#8facbb'

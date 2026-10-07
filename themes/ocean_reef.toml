@@ -1,0 +1,58 @@
+# Ocean Reef
+
+[colors.primary]
+background = '#07182a'
+foreground = '#e0f4ff'
+
+[colors.normal]
+black   = '#213244'
+red     = '#ff6f7a'
+green   = '#5ef0b0'
+yellow  = '#ffd86a'
+blue    = '#4aa8ff'
+magenta = '#ff7ac8'
+cyan    = '#38e0f0'
+white   = '#cce4f0'
+
+[colors.bright]
+black   = '#5e707f'
+red     = '#ff8f97'
+green   = '#81f3c1'
+yellow  = '#ffe18b'
+blue    = '#72bbff'
+magenta = '#ff97d4'
+cyan    = '#64e7f3'
+white   = '#ebf4f9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#07182a'
+cursor = '#38e0f0'
+
+[colors.vi_mode_cursor]
+text = '#07182a'
+cursor = '#64e7f3'
+
+[colors.selection]
+text = '#e0f4ff'
+background = '#1a6475'
+
+[colors.search.matches]
+foreground = '#07182a'
+background = '#ffe18b'
+
+[colors.search.focused_match]
+foreground = '#07182a'
+background = '#ff8f97'
+
+[colors.footer_bar]
+foreground = '#e0f4ff'
+background = '#2e4050'
+
+[colors.hints.start]
+foreground = '#07182a'
+background = '#ffe18b'
+
+[colors.hints.end]
+foreground = '#07182a'
+background = '#72bbff'

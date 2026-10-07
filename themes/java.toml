@@ -1,0 +1,58 @@
+# Java
+
+[colors.primary]
+background = '#14181f'
+foreground = '#e8ecf0'
+
+[colors.normal]
+black   = '#2d3138'
+red     = '#f0553a'
+green   = '#6fc48a'
+yellow  = '#f2a33a'
+blue    = '#5a8fc0'
+magenta = '#c07aa8'
+cyan    = '#4fbfc4'
+white   = '#d0d8e0'
+
+[colors.bright]
+black   = '#696d73'
+red     = '#f37a65'
+green   = '#8fd1a4'
+yellow  = '#f5b765'
+blue    = '#7ea8ce'
+magenta = '#ce97bb'
+cyan    = '#76cdd1'
+white   = '#eceff3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#14181f'
+cursor = '#f2a33a'
+
+[colors.vi_mode_cursor]
+text = '#14181f'
+cursor = '#76cdd1'
+
+[colors.selection]
+text = '#e8ecf0'
+background = '#684d29'
+
+[colors.search.matches]
+foreground = '#14181f'
+background = '#f5b765'
+
+[colors.search.focused_match]
+foreground = '#14181f'
+background = '#f37a65'
+
+[colors.footer_bar]
+foreground = '#e8ecf0'
+background = '#3a3e45'
+
+[colors.hints.start]
+foreground = '#14181f'
+background = '#f5b765'
+
+[colors.hints.end]
+foreground = '#14181f'
+background = '#7ea8ce'

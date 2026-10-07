@@ -1,0 +1,58 @@
+# Caramel Macchiato
+
+[colors.primary]
+background = '#2b1c12'
+foreground = '#f5e1c4'
+
+[colors.normal]
+black   = '#433427'
+red     = '#e8704a'
+green   = '#a0b45a'
+yellow  = '#f0b840'
+blue    = '#7a9eb0'
+magenta = '#c8809a'
+cyan    = '#78bca0'
+white   = '#dcc8a8'
+
+[colors.bright]
+black   = '#806f5d'
+red     = '#ed8f72'
+green   = '#b5c47e'
+yellow  = '#f3c86a'
+blue    = '#97b3c1'
+magenta = '#d49cb0'
+cyan    = '#96cbb5'
+white   = '#f1e9dc'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#2b1c12'
+cursor = '#f0b840'
+
+[colors.vi_mode_cursor]
+text = '#2b1c12'
+cursor = '#96cbb5'
+
+[colors.selection]
+text = '#f5e1c4'
+background = '#765723'
+
+[colors.search.matches]
+foreground = '#2b1c12'
+background = '#f3c86a'
+
+[colors.search.focused_match]
+foreground = '#2b1c12'
+background = '#ed8f72'
+
+[colors.footer_bar]
+foreground = '#f5e1c4'
+background = '#4f3f32'
+
+[colors.hints.start]
+foreground = '#2b1c12'
+background = '#f3c86a'
+
+[colors.hints.end]
+foreground = '#2b1c12'
+background = '#97b3c1'

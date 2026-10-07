@@ -1,0 +1,58 @@
+# Terracotta
+
+[colors.primary]
+background = '#231815'
+foreground = '#f0dccb'
+
+[colors.normal]
+black   = '#3c302b'
+red     = '#e2674e'
+green   = '#8fae6a'
+yellow  = '#eab255'
+blue    = '#6f9bbd'
+magenta = '#d17f9c'
+cyan    = '#66b7a5'
+white   = '#d4bfae'
+
+[colors.bright]
+black   = '#796a61'
+red     = '#e88875'
+green   = '#a8c08b'
+yellow  = '#efc37a'
+blue    = '#8fb1cc'
+magenta = '#db9bb2'
+cyan    = '#88c7b9'
+white   = '#eee5df'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#231815'
+cursor = '#e2674e'
+
+[colors.vi_mode_cursor]
+text = '#231815'
+cursor = '#88c7b9'
+
+[colors.selection]
+text = '#f0dccb'
+background = '#6c362b'
+
+[colors.search.matches]
+foreground = '#231815'
+background = '#efc37a'
+
+[colors.search.focused_match]
+foreground = '#231815'
+background = '#e88875'
+
+[colors.footer_bar]
+foreground = '#f0dccb'
+background = '#483b36'
+
+[colors.hints.start]
+foreground = '#231815'
+background = '#efc37a'
+
+[colors.hints.end]
+foreground = '#231815'
+background = '#8fb1cc'

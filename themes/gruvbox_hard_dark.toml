@@ -1,0 +1,58 @@
+# Gruvbox Hard Dark
+
+[colors.primary]
+background = '#1d2021'
+foreground = '#ebdbb2'
+
+[colors.normal]
+black   = '#363632'
+red     = '#e5513f'
+green   = '#a8a52a'
+yellow  = '#e0a526'
+blue    = '#6fa0a8'
+magenta = '#c97b95'
+cyan    = '#8ec07c'
+white   = '#d5c4a1'
+
+[colors.bright]
+black   = '#787261'
+red     = '#eb7769'
+green   = '#bbb959'
+yellow  = '#e7b956'
+blue    = '#8fb5bb'
+magenta = '#d598ac'
+cyan    = '#a7ce99'
+white   = '#eee7d9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1d2021'
+cursor = '#fabd2f'
+
+[colors.vi_mode_cursor]
+text = '#1d2021'
+cursor = '#a7ce99'
+
+[colors.selection]
+text = '#ebdbb2'
+background = '#715c26'
+
+[colors.search.matches]
+foreground = '#1d2021'
+background = '#e7b956'
+
+[colors.search.focused_match]
+foreground = '#1d2021'
+background = '#eb7769'
+
+[colors.footer_bar]
+foreground = '#ebdbb2'
+background = '#42423b'
+
+[colors.hints.start]
+foreground = '#1d2021'
+background = '#e7b956'
+
+[colors.hints.end]
+foreground = '#1d2021'
+background = '#8fb5bb'

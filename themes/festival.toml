@@ -1,0 +1,58 @@
+# Festival
+
+[colors.primary]
+background = '#1a0f0a'
+foreground = '#fff0e0'
+
+[colors.normal]
+black   = '#352a24'
+red     = '#ff4d3d'
+green   = '#8be04a'
+yellow  = '#ffc933'
+blue    = '#4aa8ff'
+magenta = '#ff52a8'
+cyan    = '#3fe0c0'
+white   = '#e8d8c8'
+
+[colors.bright]
+black   = '#766960'
+red     = '#ff7468'
+green   = '#a5e772'
+yellow  = '#ffd560'
+blue    = '#72bbff'
+magenta = '#ff78bb'
+cyan    = '#69e7ce'
+white   = '#f6efe9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a0f0a'
+cursor = '#ffc933'
+
+[colors.vi_mode_cursor]
+text = '#1a0f0a'
+cursor = '#69e7ce'
+
+[colors.selection]
+text = '#fff0e0'
+background = '#71561a'
+
+[colors.search.matches]
+foreground = '#1a0f0a'
+background = '#ffd560'
+
+[colors.search.focused_match]
+foreground = '#1a0f0a'
+background = '#ff7468'
+
+[colors.footer_bar]
+foreground = '#fff0e0'
+background = '#433831'
+
+[colors.hints.start]
+foreground = '#1a0f0a'
+background = '#ffd560'
+
+[colors.hints.end]
+foreground = '#1a0f0a'
+background = '#72bbff'

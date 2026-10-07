@@ -1,0 +1,58 @@
+# Desert Dusk
+
+[colors.primary]
+background = '#201a1a'
+foreground = '#e3d2c3'
+
+[colors.normal]
+black   = '#37302e'
+red     = '#d66a5c'
+green   = '#9db17c'
+yellow  = '#e0b46a'
+blue    = '#7f9fb8'
+magenta = '#c487a0'
+cyan    = '#7fbfae'
+white   = '#cdbaa8'
+
+[colors.bright]
+black   = '#766b64'
+red     = '#df8b80'
+green   = '#b3c299'
+yellow  = '#e7c48b'
+blue    = '#9bb4c8'
+magenta = '#d1a1b5'
+cyan    = '#9bcdc0'
+white   = '#ebe3dc'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#201a1a'
+cursor = '#e0b46a'
+
+[colors.vi_mode_cursor]
+text = '#201a1a'
+cursor = '#9bcdc0'
+
+[colors.selection]
+text = '#e3d2c3'
+background = '#695538'
+
+[colors.search.matches]
+foreground = '#201a1a'
+background = '#e7c48b'
+
+[colors.search.focused_match]
+foreground = '#201a1a'
+background = '#df8b80'
+
+[colors.footer_bar]
+foreground = '#e3d2c3'
+background = '#433b38'
+
+[colors.hints.start]
+foreground = '#201a1a'
+background = '#e7c48b'
+
+[colors.hints.end]
+foreground = '#201a1a'
+background = '#9bb4c8'

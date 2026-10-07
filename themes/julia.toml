@@ -1,0 +1,58 @@
+# Julia
+
+[colors.primary]
+background = '#12121a'
+foreground = '#ece8f0'
+
+[colors.normal]
+black   = '#2c2c34'
+red     = '#e5534b'
+green   = '#5ec050'
+yellow  = '#e8c050'
+blue    = '#5a8fe0'
+magenta = '#b072d0'
+cyan    = '#4cc0c8'
+white   = '#d4d0dc'
+
+[colors.bright]
+black   = '#696870'
+red     = '#eb7973'
+green   = '#81ce76'
+yellow  = '#edce76'
+blue    = '#7ea8e7'
+magenta = '#c191da'
+cyan    = '#73ced4'
+white   = '#eeecf1'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#12121a'
+cursor = '#b072d0'
+
+[colors.vi_mode_cursor]
+text = '#12121a'
+cursor = '#73ced4'
+
+[colors.selection]
+text = '#ece8f0'
+background = '#4e365f'
+
+[colors.search.matches]
+foreground = '#12121a'
+background = '#edce76'
+
+[colors.search.focused_match]
+foreground = '#12121a'
+background = '#eb7973'
+
+[colors.footer_bar]
+foreground = '#ece8f0'
+background = '#393941'
+
+[colors.hints.start]
+foreground = '#12121a'
+background = '#edce76'
+
+[colors.hints.end]
+foreground = '#12121a'
+background = '#7ea8e7'

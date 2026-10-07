@@ -1,0 +1,58 @@
+# Flat White
+
+[colors.primary]
+background = '#24201c'
+foreground = '#efe6d8'
+
+[colors.normal]
+black   = '#3c3833'
+red     = '#d9705f'
+green   = '#9bb078'
+yellow  = '#ddb86a'
+blue    = '#7c9fb8'
+magenta = '#b98aa4'
+cyan    = '#7ab8a8'
+white   = '#d6ccbc'
+
+[colors.bright]
+black   = '#79736b'
+red     = '#e18f82'
+green   = '#b1c196'
+yellow  = '#e4c88b'
+blue    = '#99b4c8'
+magenta = '#c8a4b8'
+cyan    = '#97c8bb'
+white   = '#efebe4'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#24201c'
+cursor = '#ddb86a'
+
+[colors.vi_mode_cursor]
+text = '#24201c'
+cursor = '#97c8bb'
+
+[colors.selection]
+text = '#efe6d8'
+background = '#6a5a3a'
+
+[colors.search.matches]
+foreground = '#24201c'
+background = '#e4c88b'
+
+[colors.search.focused_match]
+foreground = '#24201c'
+background = '#e18f82'
+
+[colors.footer_bar]
+foreground = '#efe6d8'
+background = '#49443e'
+
+[colors.hints.start]
+foreground = '#24201c'
+background = '#e4c88b'
+
+[colors.hints.end]
+foreground = '#24201c'
+background = '#99b4c8'

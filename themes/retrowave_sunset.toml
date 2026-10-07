@@ -1,0 +1,58 @@
+# Retrowave Sunset
+
+[colors.primary]
+background = '#1a0b2e'
+foreground = '#ffe9f3'
+
+[colors.normal]
+black   = '#352646'
+red     = '#ff4f6d'
+green   = '#7bf0a0'
+yellow  = '#ffb347'
+blue    = '#6f8cff'
+magenta = '#ff5ac8'
+cyan    = '#4dd8ff'
+white   = '#e8cfe8'
+
+[colors.bright]
+black   = '#76647d'
+red     = '#ff768d'
+green   = '#98f3b5'
+yellow  = '#ffc46f'
+blue    = '#8fa5ff'
+magenta = '#ff7ed4'
+cyan    = '#74e1ff'
+white   = '#f6ecf6'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a0b2e'
+cursor = '#ff5ac8'
+
+[colors.vi_mode_cursor]
+text = '#1a0b2e'
+cursor = '#74e1ff'
+
+[colors.selection]
+text = '#ffe9f3'
+background = '#712969'
+
+[colors.search.matches]
+foreground = '#1a0b2e'
+background = '#ffc46f'
+
+[colors.search.focused_match]
+foreground = '#1a0b2e'
+background = '#ff768d'
+
+[colors.footer_bar]
+foreground = '#ffe9f3'
+background = '#433351'
+
+[colors.hints.start]
+foreground = '#1a0b2e'
+background = '#ffc46f'
+
+[colors.hints.end]
+foreground = '#1a0b2e'
+background = '#8fa5ff'

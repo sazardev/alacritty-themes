@@ -1,0 +1,58 @@
+# Café Bombón
+
+[colors.primary]
+background = '#241810'
+foreground = '#f2e0c0'
+
+[colors.normal]
+black   = '#3d3025'
+red     = '#e0644a'
+green   = '#98ac5c'
+yellow  = '#f2c050'
+blue    = '#7098b0'
+magenta = '#c07c94'
+cyan    = '#6ab4a0'
+white   = '#dccaa8'
+
+[colors.bright]
+black   = '#7b6c5a'
+red     = '#e78672'
+green   = '#afbe80'
+yellow  = '#f5ce76'
+blue    = '#8fafc1'
+magenta = '#ce99ac'
+cyan    = '#8bc4b5'
+white   = '#f1eadc'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#241810'
+cursor = '#f2c050'
+
+[colors.vi_mode_cursor]
+text = '#241810'
+cursor = '#8bc4b5'
+
+[colors.selection]
+text = '#f2e0c0'
+background = '#725828'
+
+[colors.search.matches]
+foreground = '#241810'
+background = '#f5ce76'
+
+[colors.search.focused_match]
+foreground = '#241810'
+background = '#e78672'
+
+[colors.footer_bar]
+foreground = '#f2e0c0'
+background = '#493c30'
+
+[colors.hints.start]
+foreground = '#241810'
+background = '#f5ce76'
+
+[colors.hints.end]
+foreground = '#241810'
+background = '#8fafc1'

@@ -1,0 +1,58 @@
+# Rust
+
+[colors.primary]
+background = '#1a1512'
+foreground = '#ecdcc8'
+
+[colors.normal]
+black   = '#332d28'
+red     = '#e5533d'
+green   = '#9db563'
+yellow  = '#e6a756'
+blue    = '#6e9cb8'
+magenta = '#c4789a'
+cyan    = '#6fb5a8'
+white   = '#d1c0aa'
+
+[colors.bright]
+black   = '#72695e'
+red     = '#eb7968'
+green   = '#b3c585'
+yellow  = '#ecba7b'
+blue    = '#8eb2c8'
+magenta = '#d196b0'
+cyan    = '#8fc5bb'
+white   = '#ede6dd'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a1512'
+cursor = '#e5533d'
+
+[colors.vi_mode_cursor]
+text = '#1a1512'
+cursor = '#8fc5bb'
+
+[colors.selection]
+text = '#ecdcc8'
+background = '#672d22'
+
+[colors.search.matches]
+foreground = '#1a1512'
+background = '#ecba7b'
+
+[colors.search.focused_match]
+foreground = '#1a1512'
+background = '#eb7968'
+
+[colors.footer_bar]
+foreground = '#ecdcc8'
+background = '#403933'
+
+[colors.hints.start]
+foreground = '#1a1512'
+background = '#ecba7b'
+
+[colors.hints.end]
+foreground = '#1a1512'
+background = '#8eb2c8'

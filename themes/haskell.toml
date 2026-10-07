@@ -1,0 +1,58 @@
+# Haskell
+
+[colors.primary]
+background = '#12101e'
+foreground = '#e4def0'
+
+[colors.normal]
+black   = '#2b2937'
+red     = '#ee6078'
+green   = '#78cc9a'
+yellow  = '#e8c470'
+blue    = '#7090e8'
+magenta = '#a06ad8'
+cyan    = '#58c0d8'
+white   = '#cdc6e0'
+
+[colors.bright]
+black   = '#6a6776'
+red     = '#f28396'
+green   = '#96d7b0'
+yellow  = '#edd18f'
+blue    = '#8fa8ed'
+magenta = '#b58be1'
+cyan    = '#7dcee1'
+white   = '#ebe8f3'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#12101e'
+cursor = '#a06ad8'
+
+[colors.vi_mode_cursor]
+text = '#12101e'
+cursor = '#7dcee1'
+
+[colors.selection]
+text = '#e4def0'
+background = '#483265'
+
+[colors.search.matches]
+foreground = '#12101e'
+background = '#edd18f'
+
+[colors.search.focused_match]
+foreground = '#12101e'
+background = '#f28396'
+
+[colors.footer_bar]
+foreground = '#e4def0'
+background = '#383544'
+
+[colors.hints.start]
+foreground = '#12101e'
+background = '#edd18f'
+
+[colors.hints.end]
+foreground = '#12101e'
+background = '#8fa8ed'

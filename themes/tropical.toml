@@ -1,0 +1,58 @@
+# Tropical
+
+[colors.primary]
+background = '#0d1f1f'
+foreground = '#f0f5e0'
+
+[colors.normal]
+black   = '#283936'
+red     = '#ff6a5e'
+green   = '#6be37a'
+yellow  = '#ffd23f'
+blue    = '#3fa7ff'
+magenta = '#ff6fb5'
+cyan    = '#2fe0c8'
+white   = '#d8e8d0'
+
+[colors.bright]
+black   = '#68756c'
+red     = '#ff8b81'
+green   = '#8ce997'
+yellow  = '#ffdc69'
+blue    = '#69baff'
+magenta = '#ff8fc5'
+cyan    = '#5de7d4'
+white   = '#eff6ec'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#0d1f1f'
+cursor = '#ffd23f'
+
+[colors.vi_mode_cursor]
+text = '#0d1f1f'
+cursor = '#5de7d4'
+
+[colors.selection]
+text = '#f0f5e0'
+background = '#69632b'
+
+[colors.search.matches]
+foreground = '#0d1f1f'
+background = '#ffdc69'
+
+[colors.search.focused_match]
+foreground = '#0d1f1f'
+background = '#ff8b81'
+
+[colors.footer_bar]
+foreground = '#f0f5e0'
+background = '#364642'
+
+[colors.hints.start]
+foreground = '#0d1f1f'
+background = '#ffdc69'
+
+[colors.hints.end]
+foreground = '#0d1f1f'
+background = '#69baff'

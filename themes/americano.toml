@@ -1,0 +1,58 @@
+# Americano
+
+[colors.primary]
+background = '#1a1411'
+foreground = '#d9cdbc'
+
+[colors.normal]
+black   = '#312a26'
+red     = '#c8604c'
+green   = '#8a9a62'
+yellow  = '#cba35a'
+blue    = '#6c8898'
+magenta = '#a47890'
+cyan    = '#6a9c8a'
+white   = '#bfb2a0'
+
+[colors.bright]
+black   = '#726960'
+red     = '#d48373'
+green   = '#a4b085'
+yellow  = '#d6b77e'
+blue    = '#8ca2af'
+magenta = '#b896a8'
+cyan    = '#8bb2a4'
+white   = '#e5e0d9'
+
+# --- derivado de la paleta (enrich.py) ---
+[colors.cursor]
+text = '#1a1411'
+cursor = '#cba35a'
+
+[colors.vi_mode_cursor]
+text = '#1a1411'
+cursor = '#8bb2a4'
+
+[colors.selection]
+text = '#d9cdbc'
+background = '#5d4a2d'
+
+[colors.search.matches]
+foreground = '#1a1411'
+background = '#d6b77e'
+
+[colors.search.focused_match]
+foreground = '#1a1411'
+background = '#d48373'
+
+[colors.footer_bar]
+foreground = '#d9cdbc'
+background = '#3c3530'
+
+[colors.hints.start]
+foreground = '#1a1411'
+background = '#d6b77e'
+
+[colors.hints.end]
+foreground = '#1a1411'
+background = '#8ca2af'
